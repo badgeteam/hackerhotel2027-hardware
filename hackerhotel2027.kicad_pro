@@ -156,7 +156,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -876,7 +876,7 @@
         "uuid": "0ab9a1db-7560-4118-92b8-33ec87c3cf01"
       }
     ],
-    "used_designators": "L1,L9,R1-2,R11-13,R25,J1-3,FPC1,D3,D5,D8,AE2,C1-7,C31-45,Y1-4,#PWR1-21,#PWR52-64,#PWR121-126,#PWR131-138,Q2,U1-3",
+    "used_designators": "BT1,L1,L9,R1-8,R11-13,R25,J1-3,FPC1,D1-15,AE2,C1-7,C31-45,Y1-4,#PWR1-27,#PWR52-64,#PWR121-126,#PWR131-138,Q2,U1-3",
     "variants": []
   },
   "sheets": [
