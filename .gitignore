@@ -31,3 +31,6 @@ fp-info-cache
 #auto_saved_files#
 
 production/backups
+
+# Python venv for design/ai scripts
+design/ai/.venv

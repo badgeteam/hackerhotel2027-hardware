@@ -1,4 +1,6 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "ch32v208") (type "KiCad") (uri "${KIPRJMOD}/library/ch32v208.pretty") (options "") (descr ""))
+	(lib (name "led") (type "KiCad") (uri "${KIPRJMOD}/library/led.pretty") (options "") (descr ""))
+	(lib (name "ch643") (type "KiCad") (uri "${KIPRJMOD}/library/ch643.pretty") (options "") (descr ""))
 )
