@@ -1,6 +1,7 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "ch32v208") (type "KiCad") (uri "${KIPRJMOD}/library/ch32v208.kicad_sym") (options "") (descr ""))
 	(lib (name "led") (type "KiCad") (uri "${KIPRJMOD}/library/led.kicad_sym") (options "") (descr ""))
 	(lib (name "ch643") (type "KiCad") (uri "${KIPRJMOD}/library/ch643.kicad_sym") (options "") (descr ""))
+	(lib (name "pushbutton") (type "KiCad") (uri "${KIPRJMOD}/library/pushbutton.kicad_sym") (options "") (descr ""))
+	(lib (name "infrared") (type "KiCad") (uri "${KIPRJMOD}/library/infrared.kicad_sym") (options "") (descr ""))
 )

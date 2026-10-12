@@ -913,6 +913,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x02_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -3483,6 +3699,208 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "infrared:DY-IRMHF384-T05-2.5KB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CGQ"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DY-IRMHF384-T05-2.5KB"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "infrared:OPTO-SMD_4P-L3.9-W3.4_IRM-H432M3-R8"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C7280961.pdf"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TONYU(东裕)"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "DY-IRMHF384-T05-2.5KB"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C7280961"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Infrared remote receiver"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DY-IRMHF384-T05-2.5KB_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 4.32 -4.83)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 4.32 2.79)
+					(mid 6.8489 0.25)
+					(end 4.32 -2.29)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc:JSM2301S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4472,6 +4890,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4970,6 +5524,267 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pushbutton:TS-1187A-B-A-B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-1187A-B-A-B"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "pushbutton:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "XKB Connection(中国星坤)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TS-1187A-B-A-B"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C318884"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Tactile Switches"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TS-1187A-B-A-B_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 0.76) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.76) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0.51)
+					(radius 0.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.79)
+					(radius 0.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.3) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6833,6 +7648,12 @@
 		(uuid "52573e79-95ee-46b3-8d43-35ef33f72197")
 	)
 	(junction
+		(at 205.74 271.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e81ff1-db6f-447f-b201-13d92c88f6b1")
+	)
+	(junction
 		(at 226.06 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8405,6 +9226,12 @@
 		(uuid "bea7e4b3-ba21-435f-b348-63abc582be77")
 	)
 	(junction
+		(at 44.45 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "becee41d-a940-45e5-a6c6-fca99d7e56ab")
+	)
+	(junction
 		(at 287.02 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8499,6 +9326,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3fb76f8-596b-4a3d-ae2c-9bd4e52d198c")
+	)
+	(junction
+		(at 72.39 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c40490b0-c1d4-4778-a97e-22ee7d6840d7")
 	)
 	(junction
 		(at 332.74 80.01)
@@ -9029,6 +9862,12 @@
 		(uuid "e6bd435c-8d0f-4543-be3f-079bf951c1c7")
 	)
 	(junction
+		(at 44.45 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7470d58-cbae-474c-85ed-ba6145417aa1")
+	)
+	(junction
 		(at 137.16 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9299,6 +10138,18 @@
 		(uuid "f6f07b07-54a7-4727-9c72-f0c60a5e077a")
 	)
 	(junction
+		(at 118.11 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7143c4b-9bf1-4797-b6f5-9e90f3c2332d")
+	)
+	(junction
+		(at 101.6 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f71a9884-f066-4d2b-bd84-193b9fad1c49")
+	)
+	(junction
 		(at 259.08 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9449,10 +10300,22 @@
 		(uuid "fd7f97c4-80ab-4258-9f69-e349f2f4a307")
 	)
 	(junction
+		(at 72.39 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe5e96ff-e653-4fad-b518-03fa03bc4eea")
+	)
+	(junction
 		(at 210.82 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fed3d3ab-9735-4c9c-a5ba-70eadc3f1499")
+	)
+	(junction
+		(at 118.11 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feee27c1-d93c-4eca-9172-bca21bf3cd3e")
 	)
 	(junction
 		(at 182.88 44.45)
@@ -9475,6 +10338,42 @@
 	(no_connect
 		(at 378.46 232.41)
 		(uuid "443eb6ac-e1a1-47e2-866a-33b246818543")
+	)
+	(no_connect
+		(at 59.69 209.55)
+		(uuid "6b9f476b-679a-48bb-b142-2573a8f2c1ce")
+	)
+	(no_connect
+		(at 69.85 193.04)
+		(uuid "836b3a48-4bf7-4b6a-886c-86a1ed1fd12e")
+	)
+	(no_connect
+		(at 41.91 193.04)
+		(uuid "8d3589d9-c4cf-416f-af4f-7d77462e23d9")
+	)
+	(no_connect
+		(at 41.91 217.17)
+		(uuid "a41388f8-8153-4ecf-a3e7-41e25ba5cf52")
+	)
+	(no_connect
+		(at 31.75 209.55)
+		(uuid "b1b1475b-ef26-4327-8f8e-7cd80fab46cc")
+	)
+	(no_connect
+		(at 31.75 185.42)
+		(uuid "baf8f697-6de3-4986-8480-58a508ffe06f")
+	)
+	(no_connect
+		(at 247.65 171.45)
+		(uuid "c1432d90-4d87-4149-b6d6-964dcf389034")
+	)
+	(no_connect
+		(at 59.69 185.42)
+		(uuid "c2400b4b-0e71-4ee7-90b3-795ffb2b5779")
+	)
+	(no_connect
+		(at 69.85 217.17)
+		(uuid "d31c7cf0-09f5-470e-a97d-d31d7a2e1239")
 	)
 	(no_connect
 		(at 378.46 234.95)
@@ -9632,6 +10531,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 207.01) (xy 72.39 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02dee535-511e-4577-a420-58ec079fbdc0")
+	)
+	(wire
+		(pts
 			(xy 88.9 36.83) (xy 88.9 41.91)
 		)
 		(stroke
@@ -9779,6 +10688,16 @@
 			(type default)
 		)
 		(uuid "040a3871-8c56-463d-b71f-3171e4ce0b47")
+	)
+	(wire
+		(pts
+			(xy 125.73 210.82) (xy 123.19 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042ff54b-a32a-4e10-aa7b-21d517709d84")
 	)
 	(wire
 		(pts
@@ -11502,6 +12421,26 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 193.04) (xy 59.69 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "191c6a8f-5f3d-4195-aa03-90875471f42b")
+	)
+	(wire
+		(pts
+			(xy 118.11 193.04) (xy 118.11 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1923d687-afe0-46ae-a2db-0b97aee10c74")
+	)
+	(wire
+		(pts
 			(xy 58.42 151.13) (xy 58.42 156.21)
 		)
 		(stroke
@@ -11509,6 +12448,16 @@
 			(type default)
 		)
 		(uuid "192d0b9c-7c9c-4a91-8ea9-c65e7ea5606d")
+	)
+	(wire
+		(pts
+			(xy 44.45 185.42) (xy 46.99 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1937a85d-308c-4e89-9475-439a1870acac")
 	)
 	(wire
 		(pts
@@ -12069,6 +13018,16 @@
 			(type default)
 		)
 		(uuid "21db062e-dc9c-46e8-a5ae-c394abf5d4f4")
+	)
+	(wire
+		(pts
+			(xy 205.74 269.24) (xy 205.74 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22407da3-8511-4c30-bc3f-76af342728b8")
 	)
 	(wire
 		(pts
@@ -13312,6 +14271,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 195.58) (xy 29.21 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ebb24a-c27c-4538-bf20-8c6e17cf13ba")
+	)
+	(wire
+		(pts
 			(xy 177.8 67.31) (xy 180.34 67.31)
 		)
 		(stroke
@@ -13449,6 +14418,16 @@
 			(type default)
 		)
 		(uuid "36c6fea5-ef4b-4801-91f8-6bbcbbdbdb5c")
+	)
+	(wire
+		(pts
+			(xy 105.41 210.82) (xy 107.95 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36fcfcac-45db-483d-92c7-981fac333a68")
 	)
 	(wire
 		(pts
@@ -14322,6 +15301,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 185.42) (xy 74.93 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a70aaa-f238-49cf-ac5e-933c49f8fa26")
+	)
+	(wire
+		(pts
 			(xy 55.88 44.45) (xy 58.42 44.45)
 		)
 		(stroke
@@ -14489,6 +15478,16 @@
 			(type default)
 		)
 		(uuid "44be85c1-9883-4576-adfe-d102b93e70e4")
+	)
+	(wire
+		(pts
+			(xy 29.21 193.04) (xy 31.75 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44dfb424-e12b-4cfd-8c90-cbab4c55adef")
 	)
 	(wire
 		(pts
@@ -14832,6 +15831,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 185.42) (xy 72.39 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a658378-444f-458a-8460-a5bc7d964541")
+	)
+	(wire
+		(pts
 			(xy 134.62 151.13) (xy 134.62 156.21)
 		)
 		(stroke
@@ -15069,6 +16078,16 @@
 			(type default)
 		)
 		(uuid "4d6ecfc7-9a9c-4381-9c86-001d93c85ea5")
+	)
+	(wire
+		(pts
+			(xy 205.74 271.78) (xy 208.28 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d803294-e51a-4d00-8c5e-d07c9fc782a4")
 	)
 	(wire
 		(pts
@@ -15442,6 +16461,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 279.4) (xy 208.28 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52068787-4bce-4216-9d0e-ac40aaa384b9")
+	)
+	(wire
+		(pts
 			(xy 43.18 135.89) (xy 43.18 140.97)
 		)
 		(stroke
@@ -15449,6 +16478,16 @@
 			(type default)
 		)
 		(uuid "520c4f1f-dc90-48d5-86d8-e8e91213caaf")
+	)
+	(wire
+		(pts
+			(xy 118.11 190.5) (xy 118.11 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522377c0-100e-43ed-92c0-e83a9f097c33")
 	)
 	(wire
 		(pts
@@ -16112,6 +17151,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 182.88) (xy 104.14 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d000b25-fe88-4051-919d-c26823075be6")
+	)
+	(wire
+		(pts
 			(xy 182.88 135.89) (xy 182.88 143.51)
 		)
 		(stroke
@@ -16442,6 +17491,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 185.42) (xy 120.65 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614ad211-1827-49e3-9a2c-c2028a95d50e")
+	)
+	(wire
+		(pts
 			(xy 138.43 260.35) (xy 140.97 260.35)
 		)
 		(stroke
@@ -16549,6 +17608,16 @@
 			(type default)
 		)
 		(uuid "62897a79-b1a6-4cdb-8534-70129f4d9779")
+	)
+	(wire
+		(pts
+			(xy 96.52 240.03) (xy 96.52 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6289f3f2-f492-4232-a122-43cfebed4285")
 	)
 	(wire
 		(pts
@@ -17189,6 +18258,16 @@
 			(type default)
 		)
 		(uuid "6a8d08c4-6b32-47a6-b840-bf32dee33196")
+	)
+	(wire
+		(pts
+			(xy 72.39 182.88) (xy 72.39 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aaaa138-597e-471d-9a0f-d59147ee27f7")
 	)
 	(wire
 		(pts
@@ -18069,6 +19148,16 @@
 			(type default)
 		)
 		(uuid "781341de-f2f7-4888-8f74-4466a56d785d")
+	)
+	(wire
+		(pts
+			(xy 203.2 271.78) (xy 205.74 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782542ca-9e12-4550-9255-e53c9ff835ea")
 	)
 	(wire
 		(pts
@@ -19052,6 +20141,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 187.96) (xy 120.65 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8526edbf-b942-4ddd-9b84-998137f90d68")
+	)
+	(wire
+		(pts
 			(xy 121.92 97.79) (xy 124.46 97.79)
 		)
 		(stroke
@@ -19712,6 +20811,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 180.34) (xy 101.6 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8f960f-2aef-4c24-96cd-f762f7186e1c")
+	)
+	(wire
+		(pts
 			(xy 137.16 143.51) (xy 137.16 151.13)
 		)
 		(stroke
@@ -19942,6 +21051,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 179.07) (xy 118.11 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa72348-151c-41d2-be82-c5149ba4de0b")
+	)
+	(wire
+		(pts
 			(xy 210.82 133.35) (xy 226.06 133.35)
 		)
 		(stroke
@@ -20142,6 +21261,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 182.88) (xy 101.6 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929cd585-0055-4718-aa1f-85fb819b55ec")
+	)
+	(wire
+		(pts
 			(xy 284.48 82.55) (xy 287.02 82.55)
 		)
 		(stroke
@@ -20249,6 +21378,16 @@
 			(type default)
 		)
 		(uuid "94612c93-f493-40a8-93c3-b2f9e65bc730")
+	)
+	(wire
+		(pts
+			(xy 29.21 219.71) (xy 29.21 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ebb62f-9da4-4c46-bc2f-19da6850dac5")
 	)
 	(wire
 		(pts
@@ -20722,6 +21861,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 217.17) (xy 31.75 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad8e4d4-3e4b-498b-8d3b-d50701b37c0a")
+	)
+	(wire
+		(pts
 			(xy 58.42 156.21) (xy 73.66 156.21)
 		)
 		(stroke
@@ -20829,6 +21978,16 @@
 			(type default)
 		)
 		(uuid "9b90431c-8d22-4f83-a063-dbefa013ad46")
+	)
+	(wire
+		(pts
+			(xy 44.45 185.42) (xy 41.91 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba70c1a-cc3e-47b3-be18-19e2c9b3c350")
 	)
 	(wire
 		(pts
@@ -21672,6 +22831,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 219.71) (xy 57.15 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5bb5866-2aea-434e-8a29-c7abe1dceb9c")
+	)
+	(wire
+		(pts
 			(xy 287.02 41.91) (xy 302.26 41.91)
 		)
 		(stroke
@@ -22352,6 +23521,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 276.86) (xy 208.28 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff99d75-1442-4c1c-9cd0-9ec00e60b3d9")
+	)
+	(wire
+		(pts
 			(xy 106.68 59.69) (xy 106.68 67.31)
 		)
 		(stroke
@@ -22829,6 +24008,16 @@
 			(type default)
 		)
 		(uuid "b5581c52-ab85-4749-bfa2-3e4177e32bb2")
+	)
+	(wire
+		(pts
+			(xy 57.15 195.58) (xy 57.15 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5746081-91ec-4a0a-b1a6-329323a9d1bf")
 	)
 	(wire
 		(pts
@@ -23622,6 +24811,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 209.55) (xy 46.99 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c16aea3b-68b6-4411-9641-939c9bec557b")
+	)
+	(wire
+		(pts
 			(xy 243.84 82.55) (xy 243.84 90.17)
 		)
 		(stroke
@@ -24072,6 +25271,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 182.88) (xy 44.45 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c806058e-a241-41b9-bc9f-86a9f79f9b5e")
+	)
+	(wire
+		(pts
 			(xy 121.92 135.89) (xy 124.46 135.89)
 		)
 		(stroke
@@ -24079,6 +25288,16 @@
 			(type default)
 		)
 		(uuid "c84fb42e-bcc5-4461-ba8f-61e275ade7a5")
+	)
+	(wire
+		(pts
+			(xy 104.14 185.42) (xy 101.6 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86f28ef-b1c9-4d5c-9b47-cd07deb02984")
 	)
 	(wire
 		(pts
@@ -24692,6 +25911,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 209.55) (xy 74.93 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1543614-84c4-454e-b5f8-b8c5611688c2")
+	)
+	(wire
+		(pts
 			(xy 167.64 74.93) (xy 170.18 74.93)
 		)
 		(stroke
@@ -24912,6 +26141,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 209.55) (xy 44.45 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4225fc0-7bb8-4ff0-908a-789fee365367")
+	)
+	(wire
+		(pts
 			(xy 271.78 148.59) (xy 287.02 148.59)
 		)
 		(stroke
@@ -25119,6 +26358,16 @@
 			(type default)
 		)
 		(uuid "d64ec105-550b-44e7-be65-6614bf41021b")
+	)
+	(wire
+		(pts
+			(xy 44.45 207.01) (xy 44.45 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d650b728-0ab8-4d47-95b5-c5d942b056b8")
 	)
 	(wire
 		(pts
@@ -25482,6 +26731,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 182.88) (xy 120.65 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbcd090e-193c-4eee-849c-da7c2c092895")
+	)
+	(wire
+		(pts
 			(xy 60.96 120.65) (xy 63.5 120.65)
 		)
 		(stroke
@@ -25519,6 +26778,16 @@
 			(type default)
 		)
 		(uuid "dc4886f7-3db2-4dcb-984a-d07d621fb981")
+	)
+	(wire
+		(pts
+			(xy 57.15 217.17) (xy 59.69 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4ae2e3-ab42-4d0f-92f6-9f85960255e1")
 	)
 	(wire
 		(pts
@@ -26109,6 +27378,16 @@
 			(type default)
 		)
 		(uuid "e5fdc4d1-208d-46c3-8462-2a46a06390d6")
+	)
+	(wire
+		(pts
+			(xy 203.2 274.32) (xy 208.28 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63304c1-1463-4eff-a5ea-70c64b52294f")
 	)
 	(wire
 		(pts
@@ -26722,6 +28001,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 190.5) (xy 120.65 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebe3bef-0d60-47de-aeda-82156ca72fca")
+	)
+	(wire
+		(pts
 			(xy 195.58 82.55) (xy 195.58 87.63)
 		)
 		(stroke
@@ -27202,6 +28491,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 179.07) (xy 118.11 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5cdc68b-bda9-41ff-aef7-e58df55f3779")
+	)
+	(wire
+		(pts
 			(xy 45.72 82.55) (xy 48.26 82.55)
 		)
 		(stroke
@@ -27412,6 +28711,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 209.55) (xy 69.85 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8337ebf-e447-4de6-b839-22925cfd2b33")
+	)
+	(wire
+		(pts
 			(xy 86.36 105.41) (xy 88.9 105.41)
 		)
 		(stroke
@@ -27489,6 +28798,16 @@
 			(type default)
 		)
 		(uuid "f920798a-7e53-45c7-92ed-e5ad2126b90d")
+	)
+	(wire
+		(pts
+			(xy 111.76 182.88) (xy 118.11 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9216b5b-7fc9-4b2d-89db-b1f1bbad53b4")
 	)
 	(wire
 		(pts
@@ -28050,6 +29369,16 @@
 		)
 		(uuid "1d1a8ef2-b56b-44c0-b98c-4711894eed60")
 	)
+	(label "R16b"
+		(at 259.08 34.29 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "233c87f7-feb5-44a3-926e-c05201438720")
+	)
 	(label "R5b"
 		(at 91.44 34.29 90)
 		(effects
@@ -28079,6 +29408,26 @@
 			(justify left bottom)
 		)
 		(uuid "360ec0b4-20ba-4335-8e2e-e1f0d1ed3b60")
+	)
+	(label "R18b"
+		(at 289.56 34.29 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a56fd9d-1e4f-41a8-98c9-ea8a36aecd18")
+	)
+	(label "R23b"
+		(at 365.76 34.29 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d75f7db-26c6-4434-94e6-85322162d0b6")
 	)
 	(label "R3b"
 		(at 60.96 34.29 90)
@@ -28130,6 +29479,16 @@
 		)
 		(uuid "a9d72a1f-3154-452e-aa40-b7c9aa8e0212")
 	)
+	(label "R15b"
+		(at 243.84 34.29 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2dbe8ca-8fbd-4714-882b-2b0dd09f9ff5")
+	)
 	(label "R10b"
 		(at 167.64 34.29 90)
 		(effects
@@ -28139,6 +29498,66 @@
 			(justify left bottom)
 		)
 		(uuid "b31a5d8c-24f4-49ca-b40d-8f9ebe872935")
+	)
+	(label "R24b"
+		(at 381 34.29 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7895f06-3420-4bea-9609-3952f1571701")
+	)
+	(label "R17b"
+		(at 274.32 34.29 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "bedb1dea-ad71-4ded-94fa-eb6a2a08a4c9")
+	)
+	(label "R22b"
+		(at 350.52 34.29 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9371924-35d3-43d3-9e49-7b2c94fc9431")
+	)
+	(label "R21b"
+		(at 335.28 34.29 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb2b7fff-02d0-438a-ae79-bd37466c7b1e")
+	)
+	(label "R19b"
+		(at 304.8 34.29 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "da075a21-dbf1-4e0a-bf0a-194460042c8f")
+	)
+	(label "R20b"
+		(at 320.04 34.29 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8a7e807-5492-4995-bed3-ded933f0a1dc")
 	)
 	(label "R7b"
 		(at 121.92 34.29 90)
@@ -28382,13 +29801,13 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right)
 		)
 		(uuid "1b22be83-8523-4150-83b7-ace4a2d693e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.6443 220.98 0)
+			(at 185.2697 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28397,6 +29816,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "BTN4"
+		(shape output)
+		(at 74.93 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "1b30ab72-4ee6-4e28-85d8-408d7176f142")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.14 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -28437,6 +29880,30 @@
 		(uuid "1e6b1518-0a18-43c1-a431-a455a32e5071")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.2658 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 203.2 271.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "1ea68bf1-d84c-4454-ab47-6569771ca14e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.329 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28928,6 +30395,30 @@
 			)
 		)
 	)
+	(global_label "IR_LED+"
+		(shape output)
+		(at 105.41 210.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "3eff38b0-51c8-460b-ae64-3fcf705cc98f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.7326 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "R23"
 		(shape input)
 		(at 365.76 21.59 90)
@@ -29013,6 +30504,54 @@
 		(uuid "443bb04b-e3ac-4df0-8b36-839680663d2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 186.4309 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 252.73 247.65 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "454bbee8-aac0-46bc-8d3d-8ec71cfaccfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.73 256.521 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IR_LED-"
+		(shape input)
+		(at 191.77 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "4f91bd20-c2f0-497a-852b-568d92727f7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.0926 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29168,6 +30707,30 @@
 			)
 		)
 	)
+	(global_label "BTN1"
+		(shape input)
+		(at 191.77 226.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "5e688d27-d7c5-48b9-ab39-d8e992047105")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.56 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "C2"
 		(shape input)
 		(at 27.94 49.53 180)
@@ -29189,30 +30752,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "T2"
-		(shape input)
-		(at 247.65 171.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "60090022-236f-45be-a5f9-7a08ece8ac15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.65 167.3204 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -29456,30 +30995,6 @@
 			)
 		)
 	)
-	(global_label "T3"
-		(shape input)
-		(at 250.19 171.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "7f2701e1-ffa8-40f8-a983-767731976e11")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.19 167.3204 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "C10"
 		(shape input)
 		(at 27.94 110.49 180)
@@ -29600,6 +31115,30 @@
 			)
 		)
 	)
+	(global_label "UART_TX"
+		(shape output)
+		(at 203.2 274.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "871f44fa-6f03-468e-864d-8a7699ca40a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.5709 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "C11"
 		(shape input)
 		(at 242.57 247.65 270)
@@ -29661,6 +31200,54 @@
 		(uuid "8e7e74c1-997b-44fd-89ae-2cb7a200ecb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 333.3819 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BTN2"
+		(shape input)
+		(at 299.72 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "90695f1a-9f01-4776-b6aa-3c467040fc6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 305.93 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IR_LED+"
+		(shape output)
+		(at 191.77 218.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "912ad90d-a639-47ea-9ecb-ceda6add53d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.0926 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29792,9 +31379,33 @@
 			)
 		)
 	)
-	(global_label "T1"
-		(shape input)
-		(at 245.11 171.45 90)
+	(global_label "SWCK"
+		(shape bidirectional)
+		(at 231.14 274.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "a01edf38-0f39-44a1-9870-b7dd95760186")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.7024 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BTN1"
+		(shape output)
+		(at 46.99 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29802,9 +31413,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9ee4d114-a014-4a07-9e10-cbaf9f2895f4")
+		(uuid "a0a7f4dd-0cf6-41ba-a340-6bbe70d49347")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 167.3204 90)
+			(at 53.2 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29829,6 +31440,30 @@
 		(uuid "a2e25619-da6a-43e3-ad28-979c584d518e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.32 16.1253 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IR_RECV"
+		(shape output)
+		(at 120.65 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "a515cc88-4d1b-4500-9fed-eb2948d91c19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.1339 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29885,6 +31520,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape output)
+		(at 255.27 247.65 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "a8de2997-419a-4988-8d3f-399e0661f20b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.27 256.2791 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -30056,6 +31715,30 @@
 			)
 		)
 	)
+	(global_label "BTN3"
+		(shape output)
+		(at 46.99 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "b5d356ab-9262-4d70-a5de-f2b960853639")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.2 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "C8"
 		(shape input)
 		(at 27.94 95.25 180)
@@ -30093,6 +31776,54 @@
 		(uuid "c9abc6ff-cc71-4769-90a3-e04432461f59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.44 16.1253 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BTN3"
+		(shape input)
+		(at 299.72 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "ca5860b9-9f10-43c0-80a1-743a7277d1d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 305.93 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BTN2"
+		(shape output)
+		(at 74.93 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "cbfb708e-fa9f-4e49-ad3c-e6b0eba82fb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.14 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30197,30 +31928,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "T4"
-		(shape input)
-		(at 252.73 171.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "de62a0f8-a3bc-40a3-ac1b-2f382cd0f3cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.73 167.3204 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -30440,6 +32147,102 @@
 			)
 		)
 	)
+	(global_label "IR_LED-"
+		(shape output)
+		(at 125.73 210.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "e981d2fc-260e-4d1c-bf6b-83abf45891a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.4074 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SWIO"
+		(shape bidirectional)
+		(at 231.14 271.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "f430f913-3ba1-4396-9efc-db5474cfd1f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.1862 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IR_RECV"
+		(shape input)
+		(at 247.65 247.65 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "f57a641c-0a25-4438-b25f-f025fd8464e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.65 256.1339 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BTN4"
+		(shape input)
+		(at 250.19 247.65 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "f793772c-44d5-4c4b-a023-f370b3a823ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.19 253.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "C1"
 		(shape input)
 		(at 299.72 210.82 0)
@@ -30538,7 +32341,6 @@
 		(length 2.54)
 		(shape round)
 		(at 90.17 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -30547,7 +32349,7 @@
 		)
 		(uuid "a24cdd8e-73ae-47f5-a88a-3d4e6fe009fb")
 		(property "Netclass" "Power"
-			(at 90.8685 248.92 0)
+			(at 87.63 247.142 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30581,7 +32383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0006c537-47e2-4271-a423-a86ae4fd8872")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR014"
 			(at 295.91 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -30642,7 +32444,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR023")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -30912,7 +32714,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -31047,7 +32849,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -31182,7 +32984,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -31317,7 +33119,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -31452,7 +33254,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -31587,7 +33389,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -31722,7 +33524,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -31857,7 +33659,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -31992,7 +33794,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -32395,7 +34197,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -32530,7 +34332,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -32568,7 +34370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "086054d5-60fd-4c4f-8cb3-fafdd865b616")
-		(property "Reference" "D316"
+		(property "Reference" "D315"
 			(at 134.9375 254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32621,7 +34423,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C191023"
+		(property "LCSC" ""
 			(at 134.62 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -32654,6 +34456,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C191023"
+			(at 134.62 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e85aac5d-40f6-48c6-a654-b85e5ad1a7a7")
 		)
@@ -32663,7 +34476,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "D316")
+					(reference "D315")
 					(unit 1)
 				)
 			)
@@ -33011,7 +34824,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -33146,7 +34959,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -33281,7 +35094,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -33319,7 +35132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b892c8f-4301-434c-b703-487c8cd4a29d")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR024"
 			(at 274.32 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -33379,7 +35192,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR020")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -33494,7 +35307,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -33629,7 +35442,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -33764,7 +35577,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -33899,7 +35712,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -34034,7 +35847,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -34169,7 +35982,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -34304,7 +36117,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -34439,7 +36252,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -34591,7 +36404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "153d38ff-0b5d-4270-bc41-ce58a5f8058f")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR030"
 			(at 90.17 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -34651,7 +36464,85 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR094")
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 72.39 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15c76f3f-bdcc-43db-8b3e-b0ec770571c9")
+		(property "Reference" "#PWR08"
+			(at 72.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 72.39 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 72.39 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 72.39 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ab5ab9f-f7df-401b-a09b-7ff5bc65426b")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -34766,7 +36657,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -34804,7 +36695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19c4af11-5dbb-4f0b-b95f-826222ba6b2a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR013"
 			(at 306.07 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -34864,7 +36755,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR05")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -35134,7 +37025,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -35269,7 +37160,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -35634,7 +37525,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -35769,7 +37660,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -35904,7 +37795,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -36005,7 +37896,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C916399"
+		(property "LCSC" ""
 			(at 128.27 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -36242,7 +38133,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -36279,7 +38170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2296b6de-40d6-40d6-a291-7d18a4759c19")
-		(property "Reference" "C55"
+		(property "Reference" "C2"
 			(at 44.45 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36334,7 +38225,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 39.37 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -36433,6 +38324,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1525"
+			(at 39.37 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aacc2064-d28d-4af3-a947-693fd206aa34")
 		)
@@ -36442,7 +38344,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "C55")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -36557,7 +38459,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -36692,7 +38594,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -36975,7 +38877,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -37110,7 +39012,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -37245,7 +39147,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -37380,7 +39282,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -37522,6 +39424,276 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 205.74 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "288a3ad5-3fca-4728-a4e3-47466b084933")
+		(property "Reference" "#PWR041"
+			(at 205.74 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 205.74 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 205.74 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 205.74 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8763db93-f876-4ee3-a109-907102006f12")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 72.39 203.2 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28c3a65c-ae86-48d9-b748-8c6f73034ac0")
+		(property "Reference" "R28"
+			(at 74.168 204.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 74.168 202.057 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 70.612 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 72.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 72.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resource" ""
+			(at 72.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin1" ""
+			(at 72.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin2" ""
+			(at 72.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin3" ""
+			(at 72.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin4" ""
+			(at 72.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin5" ""
+			(at 72.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 72.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 72.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 72.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5784aff9-c502-4e5f-8ef1-9ab22d0b9219")
+		)
+		(pin "2"
+			(uuid "d95e0b8d-318b-4b9c-b0f1-7f12fdab5165")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 219.71 67.31 180)
 		(unit 1)
@@ -37630,7 +39802,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -37880,7 +40052,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -38015,7 +40187,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -38150,7 +40322,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -38188,7 +40360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c8309f5-d2ad-4981-9d6a-a3bb427d4732")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR036"
 			(at 285.75 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -38248,7 +40420,127 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR014")
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pushbutton:TS-1187A-B-A-B")
+		(at 64.77 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d477113-8e1b-46d6-b318-d44fb29d11d6")
+		(property "Reference" "SW4"
+			(at 64.77 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 64.77 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pushbutton:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
+			(at 64.77 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+			(at 64.77 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection(中国星坤)"
+			(at 64.77 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1187A-B-A-B"
+			(at 64.77 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C318884"
+			(at 64.77 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b202367-ba83-493f-9e3b-2fcdf09b2407")
+		)
+		(pin "3"
+			(uuid "1917fb28-876f-4312-a5cb-a2372a749457")
+		)
+		(pin "4"
+			(uuid "41a6279a-aca0-4164-890f-7a768117d457")
+		)
+		(pin "2"
+			(uuid "354ca6f8-d10a-4036-b6b1-6755e3e10685")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -38363,7 +40655,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 387.35 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -38498,7 +40790,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -38633,7 +40925,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -38768,7 +41060,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -38903,7 +41195,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -39038,7 +41330,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -39173,7 +41465,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -39308,7 +41600,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -39443,7 +41735,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -39578,7 +41870,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -39713,7 +42005,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -39848,7 +42140,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -39983,7 +42275,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -40118,7 +42410,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -40253,7 +42545,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -40388,7 +42680,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -40523,7 +42815,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -40658,7 +42950,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -40793,7 +43085,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -40928,7 +43220,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -41063,7 +43355,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -41100,7 +43392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f058dc8-a8c6-4d22-896c-503d491239e5")
-		(property "Reference" "R28"
+		(property "Reference" "R31"
 			(at 76.962 246.2784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41155,7 +43447,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 78.74 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -41254,6 +43546,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 78.74 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "610e0779-c2c1-4c82-ad62-fdd23e34fa79")
 		)
@@ -41263,7 +43566,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "R28")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -41378,7 +43681,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -41513,7 +43816,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -41551,7 +43854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40023b90-a4a0-442b-9881-36eced10b86d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR021"
 			(at 393.7 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -41611,7 +43914,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR07")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -41881,7 +44184,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -41919,7 +44222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4122eae2-1a57-4839-9e09-5ff8ab2c1a59")
-		(property "Reference" "R26"
+		(property "Reference" "R30"
 			(at 359.41 213.868 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42025,7 +44328,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "R26")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -42140,7 +44443,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -42275,7 +44578,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -42410,7 +44713,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -42552,6 +44855,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 203.2 276.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4418f345-0a7e-43e3-9c0a-5acf9bc7d2d7")
+		(property "Reference" "#PWR037"
+			(at 207.01 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 199.39 276.8599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 203.2 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 203.2 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f56125aa-4f61-4280-a668-53044fbe7640")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 265.43 97.79 180)
 		(unit 1)
@@ -42660,7 +45042,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -42795,7 +45177,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -42816,6 +45198,84 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mch2021-rescue:GND-power")
+		(at 231.14 279.4 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48a0356f-b61b-4af4-8a21-c874b41adb6c")
+		(property "Reference" "#PWR040"
+			(at 224.79 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 279.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2e7fc7d-1f42-42c2-b551-9c51d0c7ee02")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -42930,7 +45390,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -43143,7 +45603,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -43278,7 +45738,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -43316,7 +45776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a26ddad-8f36-47ad-8738-e90f481f1045")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR020"
 			(at 347.98 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -43376,7 +45836,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR06")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -43491,7 +45951,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -43626,7 +46086,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -43761,7 +46221,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -43896,7 +46356,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -44031,7 +46491,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -44166,7 +46626,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -44187,6 +46647,84 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mch2021-rescue:GND-power")
+		(at 203.2 279.4 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e125ceb-28c1-4725-a1a6-defa3ea288ba")
+		(property "Reference" "#PWR039"
+			(at 196.85 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 279.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8040f0bb-ed3d-41ba-9125-92c40ea20f5a")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -44301,7 +46839,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -44649,7 +47187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fbb5c7d-dd5d-48ad-b16b-64888da04b71")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR09"
 			(at 375.92 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -44709,7 +47247,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR02")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -45130,7 +47668,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -45265,7 +47803,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -45303,7 +47841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53a1fa3f-1526-4d54-81d8-d8acd5b38b5a")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR032"
 			(at 104.14 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -45363,7 +47901,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR025")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -45478,7 +48016,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -45613,7 +48151,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -45748,7 +48286,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -46113,7 +48651,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -46248,7 +48786,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -46383,7 +48921,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -46518,7 +49056,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -46653,7 +49191,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -46788,7 +49326,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -46923,7 +49461,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -46950,6 +49488,318 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:R")
+		(at 72.39 179.07 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d33f066-c0cb-49f7-af12-edbd9172e781")
+		(property "Reference" "R26"
+			(at 74.168 180.2384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 74.168 177.927 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 70.612 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 72.39 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 72.39 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resource" ""
+			(at 72.39 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin1" ""
+			(at 72.39 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin2" ""
+			(at 72.39 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin3" ""
+			(at 72.39 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin4" ""
+			(at 72.39 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin5" ""
+			(at 72.39 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 72.39 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 72.39 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 72.39 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e64be1e-0a52-4f34-93c1-44aff80dba4b")
+		)
+		(pin "2"
+			(uuid "867e8151-68e1-445a-9329-c3ce83e95a85")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pushbutton:TS-1187A-B-A-B")
+		(at 36.83 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5da95727-54a8-4e43-acbf-8e2199437431")
+		(property "Reference" "SW1"
+			(at 36.83 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 36.83 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pushbutton:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
+			(at 36.83 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+			(at 36.83 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection(中国星坤)"
+			(at 36.83 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1187A-B-A-B"
+			(at 36.83 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C318884"
+			(at 36.83 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9132863-4baf-4b67-ad67-6f6f2f141438")
+		)
+		(pin "3"
+			(uuid "66fe7b7a-43c8-4f19-aefb-98c25999e2de")
+		)
+		(pin "4"
+			(uuid "69a77496-bc5c-4f3b-80cb-68fdeb933fcd")
+		)
+		(pin "2"
+			(uuid "e8fc7687-e783-4af0-b0ab-f935a0dbe343")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:C")
 		(at 285.75 267.97 0)
 		(unit 1)
@@ -46960,7 +49810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ea76a42-b530-4579-8e6c-ecbb7d8602c7")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 288.671 266.8016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47068,7 +49918,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -47228,6 +50078,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 57.15 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ff4070e-b247-4ca1-8319-ece149ccb9d6")
+		(property "Reference" "#PWR012"
+			(at 57.15 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b45ab77-e90f-477e-92a1-54d8063bd50c")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 250.19 143.51 180)
 		(unit 1)
@@ -47336,7 +50264,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -47626,7 +50554,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -47761,7 +50689,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -47782,6 +50710,84 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D275")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 96.52 240.03 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64022692-4e2a-4bc1-99af-73b43fec24f9")
+		(property "Reference" "#PWR042"
+			(at 96.52 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 96.52 234.696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 96.52 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50154b7b-205e-4901-a5ac-77b8761894bf")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -47896,7 +50902,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -48186,7 +51192,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -48321,7 +51327,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -48456,7 +51462,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -48591,7 +51597,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -48629,7 +51635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "665f8c3c-f735-4f2d-8f4f-84e6c16531c7")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR034"
 			(at 262.89 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -48689,7 +51695,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR012")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -48804,7 +51810,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -48939,7 +51945,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -48960,6 +51966,105 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 213.36 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "686ac966-e137-4540-9dd8-15c0e2c443d1")
+		(property "Reference" "J3"
+			(at 215.9 274.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UART"
+			(at 215.9 276.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 213.36 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "-"
+			(at 213.36 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "39459f16-9c13-4098-979b-305ab6a1345d")
+		)
+		(pin "3"
+			(uuid "4be89a98-b171-4ef0-98d1-988e2e154fbc")
+		)
+		(pin "4"
+			(uuid "b0d81e1b-86c4-4bc0-be7d-61ae18319617")
+		)
+		(pin "1"
+			(uuid "db29b83e-c98b-4ea5-a95b-45ac69d49546")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -49074,7 +52179,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -49209,7 +52314,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -49344,7 +52449,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -49479,7 +52584,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -49614,7 +52719,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -49902,7 +53007,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -50037,7 +53142,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -50075,7 +53180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e51dcb6-36fb-4fef-a1ad-e4ef25e839ef")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR023"
 			(at 262.89 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -50135,7 +53240,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR019")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -50250,7 +53355,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -50287,7 +53392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f15cd40-e45d-4d75-9702-d923b91f503f")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 277.241 266.8016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50395,7 +53500,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "C2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -50588,7 +53693,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -50723,7 +53828,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -50858,7 +53963,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -50896,7 +54001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70a932f5-0415-43b5-821b-2e7d0d528e11")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 78.74 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -50956,7 +54061,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -51071,7 +54176,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -51206,7 +54311,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -51341,7 +54446,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -51476,7 +54581,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -51766,7 +54871,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -51901,7 +55006,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -52036,7 +55141,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -52171,7 +55276,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -52306,7 +55411,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -52441,7 +55546,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -52844,7 +55949,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -52979,7 +56084,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -53000,6 +56105,126 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pushbutton:TS-1187A-B-A-B")
+		(at 36.83 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ad038d7-37af-4aa3-9733-ba90ca0509a7")
+		(property "Reference" "SW3"
+			(at 36.83 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 36.83 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pushbutton:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
+			(at 36.83 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+			(at 36.83 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection(中国星坤)"
+			(at 36.83 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1187A-B-A-B"
+			(at 36.83 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C318884"
+			(at 36.83 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52bffe20-9efb-4495-b51c-85ad43d62c0a")
+		)
+		(pin "3"
+			(uuid "0ee19ed3-0915-49f7-9b59-0ff11a35600b")
+		)
+		(pin "4"
+			(uuid "70e1ef98-273f-4f57-8b63-648043bec0cb")
+		)
+		(pin "2"
+			(uuid "d087e66e-63f1-4035-a519-a38836450f74")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -53267,7 +56492,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -53402,7 +56627,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -53537,7 +56762,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -53672,7 +56897,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -53807,7 +57032,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -53942,7 +57167,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -54077,7 +57302,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -54212,7 +57437,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -54347,7 +57572,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -54430,6 +57655,17 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 104.14 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C20598817"
 			(at 104.14 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -54567,7 +57803,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -54702,7 +57938,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -54837,7 +58073,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -54972,7 +58208,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -55107,7 +58343,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -55297,7 +58533,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8716dd73-ba3d-48be-825d-2f1fe7a550a2")
-		(property "Reference" "R29"
+		(property "Reference" "R33"
 			(at 130.81 264.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55352,7 +58588,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC" ""
 			(at 128.27 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -55451,6 +58687,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25741"
+			(at 128.27 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5f65c47b-1ace-4f2b-a622-48ed10911084")
 		)
@@ -55460,7 +58707,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "R29")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -55575,7 +58822,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -55710,7 +58957,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -55845,7 +59092,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -55980,7 +59227,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -56115,7 +59362,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -56250,7 +59497,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -56385,7 +59632,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -56675,7 +59922,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -56810,7 +60057,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -56945,7 +60192,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -57080,7 +60327,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -57233,7 +60480,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9353c1f9-6ab4-407e-ac1a-c3dbdf0b92a2")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 29.21 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -57293,7 +60540,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -57408,7 +60655,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -57543,7 +60790,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -57793,7 +61040,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -57928,7 +61175,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -58063,7 +61310,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -58198,7 +61445,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -58333,7 +61580,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -58546,7 +61793,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -58567,6 +61814,84 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99fafc4c-cbad-4d05-bb68-dd84d28f1e27")
+		(property "Reference" "#PWR06"
+			(at 57.15 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa835ed6-06fd-495b-bc99-c80fa216c78b")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -58834,7 +62159,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -58969,7 +62294,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -59104,7 +62429,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -59239,7 +62564,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -59576,6 +62901,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 111.76 210.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0e3354a-411a-4903-8603-f8c290c7fd19")
+		(property "Reference" "R37"
+			(at 111.76 206.756 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 111.76 208.534 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 111.76 212.598 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 111.76 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22369545"
+			(at 111.76 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdae6f4c-af40-4d1a-9cd5-e48de0594d9b")
+		)
+		(pin "2"
+			(uuid "6b9846d6-cb7f-4e42-909b-0bd683a6e6d0")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 191.77 190.5 90)
 		(unit 1)
@@ -59587,7 +63013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a15dc1f6-41dd-44c8-91f3-8216ae0101cf")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR04"
 			(at 195.58 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -59648,7 +63074,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR024")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -59763,7 +63189,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -59898,7 +63324,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -60033,7 +63459,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -60234,6 +63660,141 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 119.38 210.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3e04177-94b9-4f03-ba6b-8196ab303e77")
+		(property "Reference" "D316"
+			(at 120.9675 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IR LED"
+			(at 120.9675 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 119.38 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/XINGLIGHT-XL1608IRC940/C965886"
+			(at 119.38 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IR LED"
+			(at 119.38 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 119.38 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 119.38 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resource" ""
+			(at 119.38 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 119.38 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C965886"
+			(at 119.38 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a28daa51-a445-4eee-84d4-af3744f64eac")
+		)
+		(pin "1"
+			(uuid "ff982bb2-628a-4c8c-a09d-ac48ff5e02d6")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "D316")
 					(unit 1)
 				)
 			)
@@ -60463,7 +64024,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -60484,6 +64045,198 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 44.45 179.07 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5846c1f-e574-422f-866d-9b281fb47cbe")
+		(property "Reference" "R25"
+			(at 46.228 180.2384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 46.228 177.927 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 42.672 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resource" ""
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin1" ""
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin2" ""
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin3" ""
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin4" ""
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin5" ""
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b1826a3-2fd5-4bb0-bf28-2b890b0df952")
+		)
+		(pin "2"
+			(uuid "d71b68b6-1b2a-4b83-8a1e-36c1fcd74cbf")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -60598,7 +64351,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -60733,7 +64486,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -60875,6 +64628,108 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:R")
+		(at 107.95 182.88 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7461668-bba9-45b3-bfb1-cd34610192c5")
+		(property "Reference" "R35"
+			(at 107.95 178.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 107.95 180.594 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 107.95 181.102 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 107.95 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 107.95 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 107.95 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ef30354-0501-464f-b3ad-2dcf2051f64c")
+		)
+		(pin "2"
+			(uuid "20f83819-833b-4ef4-8081-13951af6973d")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 128.27 135.89 180)
 		(unit 1)
@@ -60983,7 +64838,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -61233,7 +65088,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -61521,7 +65376,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -61656,7 +65511,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -61791,7 +65646,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -62234,7 +66089,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -62271,7 +66126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abe7dccd-da3d-41a0-9981-2c0a406f01f6")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR027"
 			(at 39.37 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -62331,7 +66186,85 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR090")
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 72.39 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac82f751-2b4c-4abc-9c88-785e4d036bf5")
+		(property "Reference" "#PWR03"
+			(at 72.39 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 72.39 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 72.39 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 72.39 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbc48528-af8e-478d-89dc-f8e10782d7fe")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -62446,7 +66379,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -62467,6 +66400,84 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad51ce22-8469-4b8a-8b07-03c3c642e1af")
+		(property "Reference" "#PWR05"
+			(at 29.21 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12fdf8bc-34ca-4efd-a04a-35130b832029")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -62581,7 +66592,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -62602,6 +66613,84 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 252.73 171.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad6da33a-19bb-4f9e-ba45-7a8395af06aa")
+		(property "Reference" "#PWR044"
+			(at 252.73 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 252.73 166.116 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 252.73 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "910c4b51-9a36-4599-897d-0d2e4250c496")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -62716,7 +66805,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -62754,7 +66843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae8c9746-01a5-4ea1-8a75-1b35b2df5bed")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR031"
 			(at 96.52 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -62814,7 +66903,85 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR026")
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4686ec-54d2-4d8c-a192-e6e67f9120ff")
+		(property "Reference" "#PWR02"
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 44.45 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 44.45 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92838a3d-19df-429e-a1b8-aaf698d8426a")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -62929,7 +67096,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -63332,7 +67499,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -63467,7 +67634,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -63602,7 +67769,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -63737,7 +67904,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -64027,7 +68194,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -64048,6 +68215,163 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D248")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2dbda03-7e5b-4e46-bd55-9c7ed8b094ae")
+		(property "Reference" "#PWR045"
+			(at 118.11 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e722a2b-e1f0-4d98-82ba-366d321bc82d")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 231.14 276.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b582024b-a502-4b34-b5fe-8a7519ef0cfa")
+		(property "Reference" "#PWR038"
+			(at 234.95 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 227.33 276.8599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 231.14 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 231.14 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e9450b4-d95a-4c8e-b0b3-8b52cdcd6cac")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -64162,7 +68486,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -64297,7 +68621,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -64432,7 +68756,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -64567,7 +68891,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -64702,7 +69026,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -64837,7 +69161,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -64858,6 +69182,198 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D242")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 44.45 203.2 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7ea79fb-42c6-4aff-aa12-6d938db1be9b")
+		(property "Reference" "R27"
+			(at 46.228 204.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 46.228 202.057 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 42.672 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 44.45 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 44.45 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resource" ""
+			(at 44.45 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin1" ""
+			(at 44.45 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin2" ""
+			(at 44.45 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin3" ""
+			(at 44.45 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin4" ""
+			(at 44.45 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin5" ""
+			(at 44.45 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 44.45 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 44.45 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 44.45 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "418fe226-3b24-491e-ae61-b059c1c7400d")
+		)
+		(pin "2"
+			(uuid "6292ab7c-276b-4065-bb91-b302ffb932b7")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -64972,7 +69488,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -65107,7 +69623,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -65242,7 +69758,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -65377,7 +69893,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -65665,7 +70181,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -65800,7 +70316,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 295.91 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -65935,7 +70451,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -65962,6 +70478,276 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 29.21 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2a0d038-66e8-41d3-869f-dec687086330")
+		(property "Reference" "#PWR011"
+			(at 29.21 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32c747df-2158-4546-8323-1fc45fa470de")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 205.74 265.43 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3afe071-e077-4b2c-9689-eb3ed128d6ba")
+		(property "Reference" "R34"
+			(at 207.518 266.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 207.518 264.287 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 203.962 265.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 205.74 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 205.74 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resource" ""
+			(at 205.74 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin1" ""
+			(at 205.74 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin2" ""
+			(at 205.74 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin3" ""
+			(at 205.74 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin4" ""
+			(at 205.74 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin5" ""
+			(at 205.74 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.74 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 205.74 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "369a6b9a-9ac0-40f4-a6f9-7f0ce0bd0eb2")
+		)
+		(pin "2"
+			(uuid "22675339-201c-45e4-a546-557a3297ccf7")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols2:GND")
 		(at 66.04 270.51 0)
 		(unit 1)
@@ -65972,7 +70758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3ba64d1-bfdc-4c20-a13a-164c32dd1874")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR029"
 			(at 66.04 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -66032,7 +70818,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR092")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -66147,7 +70933,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -66282,7 +71068,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -66417,7 +71203,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -66552,7 +71338,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -66687,7 +71473,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -66725,7 +71511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c731b542-685e-475e-96eb-7ac519a0a02c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR035"
 			(at 274.32 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -66785,7 +71571,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR013")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -67111,7 +71897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca2fe0bb-9d5e-46eb-ac0e-d9112bfb1b37")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR015"
 			(at 344.17 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -67171,7 +71957,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR04")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -67286,7 +72072,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -67421,7 +72207,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -67711,7 +72497,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -67846,7 +72632,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 326.39 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -67981,7 +72767,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -68116,7 +72902,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -68251,7 +73037,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -68386,7 +73172,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 311.15 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -68521,7 +73307,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -68656,7 +73442,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -68791,7 +73577,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -68926,7 +73712,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -69061,7 +73847,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -69196,7 +73982,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -69331,7 +74117,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -69466,7 +74252,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -69601,7 +74387,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -69736,7 +74522,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -69871,7 +74657,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -70006,7 +74792,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -70141,7 +74927,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -70276,7 +75062,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -70411,7 +75197,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -70546,7 +75332,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -70584,7 +75370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d85d0b9b-d6ef-4035-bdc1-31b2e3dbfa79")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 140.97 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -70644,7 +75430,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -70661,7 +75447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d87071eb-3658-409d-986d-81bc3b7b99fe")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 265.811 266.8016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -70769,7 +75555,127 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "C1")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pushbutton:TS-1187A-B-A-B")
+		(at 64.77 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d87e8672-5f3f-4e6e-99de-b370c85916f1")
+		(property "Reference" "SW2"
+			(at 64.77 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pushbutton:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
+			(at 64.77 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+			(at 64.77 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection(中国星坤)"
+			(at 64.77 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1187A-B-A-B"
+			(at 64.77 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C318884"
+			(at 64.77 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ec7890d-d10e-463b-bd1e-0c92c5c882eb")
+		)
+		(pin "3"
+			(uuid "aa74027d-8c63-4c15-b4bb-8cdff528424a")
+		)
+		(pin "4"
+			(uuid "f098e18e-0049-4457-8ad3-f502c1ceb25b")
+		)
+		(pin "2"
+			(uuid "e24f10f1-d8df-465d-811c-041cc12f968e")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -70884,7 +75790,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -71019,7 +75925,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -71154,7 +76060,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 341.63 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -71289,7 +76195,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -71424,7 +76330,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -71559,7 +76465,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -71694,7 +76600,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -71829,7 +76735,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -71964,7 +76870,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -72099,7 +77005,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -72234,7 +77140,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -72369,7 +77275,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -72504,7 +77410,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -72639,7 +77545,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -72889,7 +77795,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -73139,7 +78045,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 158.75 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -73160,6 +78066,108 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D241")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 185.42 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e12cb1a0-ef70-4cd8-9ef2-01df4f1fcdbd")
+		(property "Reference" "R36"
+			(at 107.95 189.484 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 107.95 187.706 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 107.95 183.642 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 107.95 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22369545"
+			(at 107.95 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d801fd4-18b9-4317-813e-7998c699f5c2")
+		)
+		(pin "2"
+			(uuid "bbb7875f-3af2-4910-b77b-4ddec20dec50")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -73274,7 +78282,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -73409,7 +78417,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -73447,7 +78455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3769ff7-c656-4f5b-a5ff-206c0ffaa84b")
-		(property "Reference" "C56"
+		(property "Reference" "C3"
 			(at 87.249 260.4516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73502,7 +78510,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC" ""
 			(at 90.17 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -73601,6 +78609,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C19702"
+			(at 90.17 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "685033eb-c511-44ca-bc96-512b88ec7e5f")
 		)
@@ -73610,7 +78629,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "C56")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -73783,7 +78802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3dbc267-3884-458e-9019-4f12181fc178")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 354.33 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -73843,7 +78862,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -73860,7 +78879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3f56993-9d90-46a8-b397-6b18cebe5762")
-		(property "Reference" "C54"
+		(property "Reference" "C1"
 			(at 34.29 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73915,7 +78934,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC" ""
 			(at 29.21 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -74014,6 +79033,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C19702"
+			(at 29.21 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8f285d9-227f-4bf2-9285-ce4454437228")
 		)
@@ -74023,7 +79053,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "C54")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -74138,7 +79168,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -74388,7 +79418,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -74409,6 +79439,205 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 101.6 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e549bec3-25c9-4799-9035-403393554e13")
+		(property "Reference" "#PWR043"
+			(at 101.6 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 101.346 174.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 101.6 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebd5c37b-8070-473e-b60e-c0ee9d3538cc")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "infrared:DY-IRMHF384-T05-2.5KB")
+		(at 128.27 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e56aa979-b9ba-41dd-96b9-7f4ca301cbfe")
+		(property "Reference" "CGQ1"
+			(at 135.89 185.2949 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DY-IRMHF384-T05-2.5KB"
+			(at 135.89 187.8349 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "infrared:OPTO-SMD_4P-L3.9-W3.4_IRM-H432M3-R8"
+			(at 128.27 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7280961.pdf"
+			(at 128.27 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TONYU(东裕)"
+			(at 128.27 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DY-IRMHF384-T05-2.5KB"
+			(at 128.27 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C7280961"
+			(at 128.27 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69876c9d-f0c2-4d13-8e74-feccde6de8ae")
+		)
+		(pin "3"
+			(uuid "ac416f7f-2fab-4558-841e-a73428a0ca03")
+		)
+		(pin "2"
+			(uuid "6dc696bd-ca8c-473b-a072-f18a42247482")
+		)
+		(pin "4"
+			(uuid "ef99ae1b-ac83-496b-90d2-878be9bcab0a")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "CGQ1")
 					(unit 1)
 				)
 			)
@@ -74523,7 +79752,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -74658,7 +79887,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -74908,7 +80137,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -74945,7 +80174,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7e62622-a276-45d9-88fc-ef690adf24fd")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR026"
 			(at 29.21 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -75005,7 +80234,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR089")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -75275,7 +80504,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -75410,7 +80639,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -75545,7 +80774,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -75583,7 +80812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea9050dc-b0e5-416b-b51a-7e00f6d980b5")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR022"
 			(at 401.32 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -75643,7 +80872,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR08")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -75758,7 +80987,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 219.71 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -75893,7 +81122,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -76028,7 +81257,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -76065,7 +81294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebfaa1b2-a46c-4686-a300-bff4291751d6")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 58.42 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -76122,7 +81351,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C141405"
+		(property "LCSC" ""
 			(at 66.04 254 0)
 			(hide yes)
 			(show_name no)
@@ -76243,6 +81472,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C141405"
+			(at 66.04 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2c508fb-9526-45d2-9267-eb5dd3af67d8")
 		)
@@ -76261,7 +81501,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -76376,7 +81616,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -76397,6 +81637,105 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 236.22 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee41b078-cca7-49da-a086-db2932bf6884")
+		(property "Reference" "J4"
+			(at 238.76 274.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Debug"
+			(at 238.76 276.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 236.22 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 236.22 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "-"
+			(at 236.22 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0b942815-2f34-4fc7-9755-b9db7f6f6198")
+		)
+		(pin "3"
+			(uuid "601d4c2d-807c-4bab-be97-d55cc2c82d93")
+		)
+		(pin "4"
+			(uuid "4006b992-efbb-4cae-9ff8-35fd67077fcf")
+		)
+		(pin "1"
+			(uuid "065aed70-fd58-4d46-80a2-0e49da94d57b")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -76511,7 +81850,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 204.47 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -76761,7 +82100,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -76896,7 +82235,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -77031,7 +82370,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 67.31 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -77166,7 +82505,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 356.87 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -77187,6 +82526,84 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1c72cb3-2d41-4854-9722-4c34c92406b6")
+		(property "Reference" "#PWR07"
+			(at 44.45 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 44.45 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 44.45 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "665d0b0f-c545-4456-bc85-7d5e69090de5")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -77301,7 +82718,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -77436,7 +82853,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 265.43 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -77571,7 +82988,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 113.03 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -77706,7 +83123,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -78326,7 +83743,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 36.83 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -78461,7 +83878,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -78596,7 +84013,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -78731,7 +84148,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -78866,7 +84283,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 128.27 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -79001,7 +84418,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 280.67 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -79153,7 +84570,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f813ea46-cfab-4f0b-881a-9a9232f096e3")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR028"
 			(at 48.26 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -79213,7 +84630,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR091")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -79346,7 +84763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8dba1e0-ff55-4eb7-b06d-442262188acd")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 285.75 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -79406,7 +84823,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -79636,7 +85053,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -79674,7 +85091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fae6104c-9256-473f-a78f-5204a89a7734")
-		(property "Reference" "R25"
+		(property "Reference" "R29"
 			(at 359.41 205.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -79780,7 +85197,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "R25")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -79798,7 +85215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb564a1c-3347-4b00-8734-58bed0054a1d")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 359.41 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -79851,6 +85268,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "-"
+			(at 359.41 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9fb9c64e-d40e-41a2-91bb-1edcaef1c9bf")
 		)
@@ -79860,7 +85288,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -79975,7 +85403,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 52.07 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -80110,7 +85538,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 173.99 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -80245,7 +85673,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -80283,7 +85711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc58eba8-79ad-4f02-bbe0-2d62268f8b58")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2"
 			(at 359.41 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -80336,6 +85764,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "-"
+			(at 359.41 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "351eca48-7aff-4e7b-a987-768e94cb9674")
 		)
@@ -80345,7 +85784,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "JP1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -80460,7 +85899,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 250.19 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -80750,7 +86189,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -80885,7 +86324,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 234.95 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -81020,7 +86459,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 372.11 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -81155,7 +86594,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 143.51 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -81445,7 +86884,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 97.79 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -81482,7 +86921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fea86c80-dec7-4c33-996a-9c312242605c")
-		(property "Reference" "R27"
+		(property "Reference" "R32"
 			(at 50.9016 254.762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -81537,7 +86976,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4109"
+		(property "LCSC" ""
 			(at 52.07 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -81636,6 +87075,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C4109"
+			(at 52.07 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6fef5cfd-b802-49fd-879b-948556e4f51a")
 		)
@@ -81645,7 +87095,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "R27")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -81760,7 +87210,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C779450"
+		(property "LCSC Part" "C52675968"
 			(at 189.23 82.55 0)
 			(hide yes)
 			(show_name no)

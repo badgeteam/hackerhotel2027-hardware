@@ -666,6 +666,9 @@
       "Net-(J2-Pin_1)": [
         "Power"
       ],
+      "VBAT": [
+        "Power"
+      ],
       "VBUS": [
         "Power"
       ],
@@ -863,6 +866,48 @@
           "label": "FT Position Offset",
           "name": "FT Position Offset",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "pin4",
+          "name": "pin4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "pin5",
+          "name": "pin5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "pin1",
+          "name": "pin1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "pin3",
+          "name": "pin3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "pin2",
+          "name": "pin2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet EN",
+          "name": "Datasheet EN",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -913,7 +958,7 @@
         "uuid": "0ab9a1db-7560-4118-92b8-33ec87c3cf01"
       }
     ],
-    "used_designators": "TP5-10,Q1-2,#PWR1-64,#PWR77,#PWR89-92,#PWR94,#PWR101,#PWR121-139,Y1-4,C1-21,C31-45,C54-56,AE1-2,U1-47,D1-318,JP1-2,FPC1,J1-3,R1-31,R34-35,L1-2,L9,BT1,#FLG1",
+    "used_designators": "CGQ1,L1-2,L9,J1-5,#FLG1,BT1,TP5-10,R1-37,Q1-2,#PWR1-64,#PWR77,#PWR89-92,#PWR94,#PWR101,#PWR121-139,Y1-4,C1-21,C31-45,C54-56,SW1-4,AE1-2,U1-47,D1-318,JP1-2,FPC1",
     "variants": []
   },
   "sheets": [
