@@ -1974,172 +1974,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TPD4E05U06DQAR:TPD4E05U06DQAR_C138714"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4890,142 +4724,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -6274,12 +5972,6 @@
 		(uuid "037aa229-8983-441a-bf92-58725e0fa0b4")
 	)
 	(junction
-		(at 369.57 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0390c14d-18fb-42c1-b312-4cb852ec56ff")
-	)
-	(junction
 		(at 210.82 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6596,12 +6288,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13cecf3e-cb45-422b-bf6f-e6b08ba9e9e3")
-	)
-	(junction
-		(at 367.03 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "143ec5c2-056e-4f5c-a60b-b18ebc1fed75")
 	)
 	(junction
 		(at 137.16 128.27)
@@ -12961,7 +12647,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 209.55) (xy 369.57 209.55)
+			(xy 361.95 209.55) (xy 378.46 209.55)
 		)
 		(stroke
 			(width 0)
@@ -13911,7 +13597,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 212.09) (xy 367.03 212.09)
+			(xy 361.95 212.09) (xy 378.46 212.09)
 		)
 		(stroke
 			(width 0)
@@ -14401,6 +14087,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 210.82) (xy 107.95 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3651d2f7-b75d-4b85-b3ee-4950de6ba8fb")
+	)
+	(wire
+		(pts
 			(xy 132.08 44.45) (xy 134.62 44.45)
 		)
 		(stroke
@@ -14418,16 +14114,6 @@
 			(type default)
 		)
 		(uuid "36c6fea5-ef4b-4801-91f8-6bbcbbdbdb5c")
-	)
-	(wire
-		(pts
-			(xy 105.41 210.82) (xy 107.95 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36fcfcac-45db-483d-92c7-981fac333a68")
 	)
 	(wire
 		(pts
@@ -14808,16 +14494,6 @@
 			(type default)
 		)
 		(uuid "3c174086-4475-4195-9255-1ff31a238809")
-	)
-	(wire
-		(pts
-			(xy 367.03 212.09) (xy 378.46 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c3631d6-5bc7-48a4-89a8-fb215c98ec8a")
 	)
 	(wire
 		(pts
@@ -15791,6 +15467,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 205.74) (xy 101.6 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4923836d-b9af-4483-920b-61340c14abd0")
+	)
+	(wire
+		(pts
 			(xy 363.22 95.25) (xy 378.46 95.25)
 		)
 		(stroke
@@ -15818,16 +15504,6 @@
 			(type default)
 		)
 		(uuid "4a1f98eb-a896-44c3-b610-35aecbdafbbf")
-	)
-	(wire
-		(pts
-			(xy 364.49 203.2) (xy 367.03 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a34df8b-435f-41a5-a45d-8094df004c11")
 	)
 	(wire
 		(pts
@@ -16698,16 +16374,6 @@
 			(type default)
 		)
 		(uuid "55c73f41-e61e-4e91-ab69-4b9a863090b8")
-	)
-	(wire
-		(pts
-			(xy 342.9 194.31) (xy 354.33 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5634ab78-336c-4a5c-b653-055e466a5390")
 	)
 	(wire
 		(pts
@@ -18021,16 +17687,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 194.31) (xy 369.57 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "674e3770-b11d-4969-80bf-bca9c0b94c97")
-	)
-	(wire
-		(pts
 			(xy 241.3 72.39) (xy 256.54 72.39)
 		)
 		(stroke
@@ -18458,16 +18114,6 @@
 			(type default)
 		)
 		(uuid "6eaaffd2-7fbb-4192-b3a5-eeb2cce46a04")
-	)
-	(wire
-		(pts
-			(xy 367.03 203.2) (xy 367.03 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ec791f0-fb39-40b1-979b-88c92db34293")
 	)
 	(wire
 		(pts
@@ -20811,7 +20457,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 180.34) (xy 101.6 182.88)
+			(xy 101.6 175.26) (xy 101.6 182.88)
 		)
 		(stroke
 			(width 0)
@@ -25371,16 +25017,6 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 194.31) (xy 369.57 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c97fe712-d717-4ef7-a836-ac1d4de27258")
-	)
-	(wire
-		(pts
 			(xy 182.88 90.17) (xy 182.88 97.79)
 		)
 		(stroke
@@ -26418,16 +26054,6 @@
 			(type default)
 		)
 		(uuid "d6cc8406-823e-485f-9fc2-de9ad57edf10")
-	)
-	(wire
-		(pts
-			(xy 342.9 203.2) (xy 354.33 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d764a19f-c204-42df-af09-ef12a73e7769")
 	)
 	(wire
 		(pts
@@ -27788,16 +27414,6 @@
 			(type default)
 		)
 		(uuid "eaf9b6f5-cf56-4b8f-8161-4481533b6c8c")
-	)
-	(wire
-		(pts
-			(xy 369.57 209.55) (xy 378.46 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb075053-7428-4666-a0dd-e13f147f53bc")
 	)
 	(wire
 		(pts
@@ -30011,30 +29627,6 @@
 			)
 		)
 	)
-	(global_label "CC2_ALT"
-		(shape bidirectional)
-		(at 191.77 210.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "260cac83-8787-4b57-999c-fd9e158507e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.2519 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "R13"
 		(shape input)
 		(at 213.36 21.59 90)
@@ -30395,30 +29987,6 @@
 			)
 		)
 	)
-	(global_label "IR_LED+"
-		(shape output)
-		(at 105.41 210.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "3eff38b0-51c8-460b-ae64-3fcf705cc98f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.7326 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "R23"
 		(shape input)
 		(at 365.76 21.59 90)
@@ -30440,30 +30008,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "CC2_ALT"
-		(shape bidirectional)
-		(at 342.9 203.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "41042a2d-0f6c-4c39-b066-8a12cfccdd09")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 333.3819 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -30539,7 +30083,7 @@
 			)
 		)
 	)
-	(global_label "IR_LED-"
+	(global_label "IR_LED"
 		(shape input)
 		(at 191.77 223.52 180)
 		(fields_autoplaced yes)
@@ -30551,31 +30095,7 @@
 		)
 		(uuid "4f91bd20-c2f0-497a-852b-568d92727f7c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.0926 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CC1_ALT"
-		(shape bidirectional)
-		(at 191.77 213.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "51f462ee-44dc-4cd8-9e46-858661b9c4f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.2519 213.36 0)
+			(at 184.3505 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31187,30 +30707,6 @@
 			)
 		)
 	)
-	(global_label "CC1_ALT"
-		(shape bidirectional)
-		(at 342.9 194.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "8e7e74c1-997b-44fd-89ae-2cb7a200ecb7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 333.3819 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "BTN2"
 		(shape input)
 		(at 299.72 195.58 0)
@@ -31232,30 +30728,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "IR_LED+"
-		(shape output)
-		(at 191.77 218.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "912ad90d-a639-47ea-9ecb-ceda6add53d6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.0926 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -32147,7 +31619,7 @@
 			)
 		)
 	)
-	(global_label "IR_LED-"
+	(global_label "IR_LED"
 		(shape output)
 		(at 125.73 210.82 0)
 		(fields_autoplaced yes)
@@ -32159,7 +31631,7 @@
 		)
 		(uuid "e981d2fc-260e-4d1c-bf6b-83abf45891a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.4074 210.82 0)
+			(at 133.1495 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57464,6 +56936,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 101.6 205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80ea166b-80a1-49c5-a657-ee867263d1a7")
+		(property "Reference" "#PWR046"
+			(at 101.6 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 101.6 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 101.6 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 101.6 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2ad4a03-12f1-4b15-92c3-10e4244a8eb2")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 250.19 82.55 180)
 		(unit 1)
@@ -62921,7 +62471,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "200"
 			(at 111.76 208.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62964,18 +62514,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 111.76 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C22369545"
+		(property "LCSC Part" ""
 			(at 111.76 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -79445,83 +78984,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 101.6 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e549bec3-25c9-4799-9035-403393554e13")
-		(property "Reference" "#PWR043"
-			(at 101.6 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 101.346 174.498 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 101.6 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ebd5c37b-8070-473e-b60e-c0ee9d3538cc")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "infrared:DY-IRMHF384-T05-2.5KB")
 		(at 128.27 186.69 0)
 		(unit 1)
@@ -83150,6 +82612,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 101.6 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3bc08ba-23bc-4d7c-aa72-eb1b4324d6ce")
+		(property "Reference" "#PWR043"
+			(at 101.6 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 101.6 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78544b2c-9619-4cc2-b341-e6ca4a385a08")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "led:NH-B1515RGBA-GF")
 		(at 355.6 135.89 90)
 		(mirror x)
@@ -85204,97 +84744,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 359.41 194.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb564a1c-3347-4b00-8734-58bed0054a1d")
-		(property "Reference" "JP1"
-			(at 359.41 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CC1"
-			(at 359.41 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 359.41 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 359.41 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 359.41 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "-"
-			(at 359.41 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9fb9c64e-d40e-41a2-91bb-1edcaef1c9bf")
-		)
-		(pin "2"
-			(uuid "76b91b54-7eef-4138-b077-8d993c40e575")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 52.07 44.45 180)
 		(unit 1)
@@ -85694,97 +85143,6 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 359.41 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc58eba8-79ad-4f02-bbe0-2d62268f8b58")
-		(property "Reference" "JP2"
-			(at 359.41 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CC2"
-			(at 359.41 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 359.41 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 359.41 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 359.41 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "-"
-			(at 359.41 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "351eca48-7aff-4e7b-a987-768e94cb9674")
-		)
-		(pin "2"
-			(uuid "3639ed8c-dde2-49ae-a457-271221c05dd8")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
