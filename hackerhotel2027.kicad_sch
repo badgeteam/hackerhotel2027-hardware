@@ -6186,12 +6186,6 @@
 		(uuid "0bc84176-a0d5-4944-b35e-4f685c7a0fcc")
 	)
 	(junction
-		(at 76.2 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bcabb39-82c8-4e35-bc88-16cc5a1ae021")
-	)
-	(junction
 		(at 274.32 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6208,12 +6202,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d39eee5-e156-4faf-8d38-4bde50921551")
-	)
-	(junction
-		(at 60.96 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e101a8f-8405-474b-8444-7a8016a3ba7e")
 	)
 	(junction
 		(at 60.96 143.51)
@@ -6300,12 +6288,6 @@
 		(uuid "127bffd3-d90d-46cf-adbd-79564cc1c74b")
 	)
 	(junction
-		(at 287.02 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12960bb6-2cd3-4946-be12-9e4701a6b3ed")
-	)
-	(junction
 		(at 198.12 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6370,12 +6352,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1718b05a-d153-4a86-8e52-8be4c55dc7d8")
-	)
-	(junction
-		(at 45.72 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17298f76-1bce-4b11-b27e-d99633915177")
 	)
 	(junction
 		(at 195.58 118.11)
@@ -6922,18 +6898,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31facc98-00c2-4768-9898-f996b82623fc")
-	)
-	(junction
-		(at 304.8 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3203df35-3810-4135-996f-a6459ea34902")
-	)
-	(junction
-		(at 88.9 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32529329-f78e-4dc6-a20d-2830f28ce2d2")
 	)
 	(junction
 		(at 137.16 143.51)
@@ -7524,12 +7488,6 @@
 		(uuid "58880bd9-afa3-4a06-8a62-c5183e9f5fbe")
 	)
 	(junction
-		(at 213.36 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58b71e34-f75c-498e-8181-c77604ef2ec7")
-	)
-	(junction
 		(at 137.16 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8100,12 +8058,6 @@
 		(uuid "837c1152-d078-4f6d-b430-2c1ad9574b6f")
 	)
 	(junction
-		(at 198.12 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8395772d-3f8d-42c4-a26c-382770e7405e")
-	)
-	(junction
 		(at 182.88 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8482,12 +8434,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c16fd88-ca08-4b18-82c4-89a68dcf7703")
-	)
-	(junction
-		(at 274.32 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c38bd19-c212-4b40-9cb3-80d715b538f2")
 	)
 	(junction
 		(at 121.92 36.83)
@@ -8886,12 +8832,6 @@
 		(uuid "bad5dca3-7e10-41ce-8ef7-201b3d9cd2c9")
 	)
 	(junction
-		(at 73.66 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "baf0ef41-b445-46b9-9caf-77b4c25cdf54")
-	)
-	(junction
 		(at 58.42 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9004,12 +8944,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0530a83-29a2-451d-a772-c8a55b7a61fe")
-	)
-	(junction
-		(at 226.06 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c08af30c-5f5e-464d-b540-efab04058883")
 	)
 	(junction
 		(at 104.14 102.87)
@@ -9198,12 +9132,6 @@
 		(uuid "cc5d980a-20f7-4d15-931b-7900890b9fac")
 	)
 	(junction
-		(at 210.82 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd8648ca-dd95-478d-99eb-5c12e53a44d6")
-	)
-	(junction
 		(at 149.86 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9256,12 +9184,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0046c05-1391-485f-a9cb-253c069e37aa")
-	)
-	(junction
-		(at 317.5 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d00e3cea-5fe4-4779-bbba-fc437148d42f")
 	)
 	(junction
 		(at 347.98 64.77)
@@ -9630,12 +9552,6 @@
 		(uuid "e7887dda-8a6e-4c2b-a2c2-c4e6692c1f4f")
 	)
 	(junction
-		(at 271.78 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7e68a56-4992-45aa-addd-730d30c32bed")
-	)
-	(junction
 		(at 350.52 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9670,12 +9586,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9968b16-7985-4369-9616-acb400d9ea63")
-	)
-	(junction
-		(at 259.08 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9b74444-fe18-4148-940b-4930b580253e")
 	)
 	(junction
 		(at 91.44 67.31)
@@ -9748,12 +9658,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f092e2b0-7f7f-4230-a911-76ef1385b2f9")
-	)
-	(junction
-		(at 58.42 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f10529a0-01f6-41b9-a1c7-0e78806984be")
 	)
 	(junction
 		(at 228.6 36.83)
@@ -10215,16 +10119,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 151.13) (xy 317.5 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01f1e023-834c-4c15-b2bc-20545f171e8d")
-	)
-	(wire
-		(pts
 			(xy 195.58 128.27) (xy 195.58 133.35)
 		)
 		(stroke
@@ -10282,16 +10176,6 @@
 			(type default)
 		)
 		(uuid "02dee535-511e-4577-a420-58ec079fbdc0")
-	)
-	(wire
-		(pts
-			(xy 88.9 36.83) (xy 88.9 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02fac45e-2d57-40a6-ae11-a8e7e26fbe0d")
 	)
 	(wire
 		(pts
@@ -10455,16 +10339,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 41.91) (xy 210.82 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0457e76c-a583-4aec-8a6b-5f5dc823c012")
-	)
-	(wire
-		(pts
 			(xy 29.21 246.38) (xy 39.37 246.38)
 		)
 		(stroke
@@ -10615,7 +10489,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 156.21) (xy 317.5 156.21)
+			(xy 302.26 156.21) (xy 332.74 156.21)
 		)
 		(stroke
 			(width 0)
@@ -10985,16 +10859,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 41.91) (xy 88.9 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09fa1637-df72-4fdd-bfa5-706f9e87da4c")
-	)
-	(wire
-		(pts
 			(xy 165.1 118.11) (xy 180.34 118.11)
 		)
 		(stroke
@@ -11075,16 +10939,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 135.89) (xy 213.36 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b98f05c-ed1e-4831-b497-9aeabeef9c05")
-	)
-	(wire
-		(pts
 			(xy 223.52 44.45) (xy 226.06 44.45)
 		)
 		(stroke
@@ -11102,16 +10956,6 @@
 			(type default)
 		)
 		(uuid "0bbd813b-4016-4bf1-8e89-88f355a2f61e")
-	)
-	(wire
-		(pts
-			(xy 317.5 156.21) (xy 332.74 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bf73bfb-ccce-4386-9cc4-9082b152fbe0")
 	)
 	(wire
 		(pts
@@ -12345,7 +12189,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 41.91) (xy 226.06 41.91)
+			(xy 195.58 41.91) (xy 226.06 41.91)
 		)
 		(stroke
 			(width 0)
@@ -14055,7 +13899,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 148.59) (xy 241.3 148.59)
+			(xy 210.82 148.59) (xy 241.3 148.59)
 		)
 		(stroke
 			(width 0)
@@ -14252,16 +14096,6 @@
 			(type default)
 		)
 		(uuid "38e2cc24-0ff2-4b1f-b6ba-a9aed3b834b4")
-	)
-	(wire
-		(pts
-			(xy 86.36 36.83) (xy 88.9 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38ef22f5-06dc-435d-b6da-f378eeecaccc")
 	)
 	(wire
 		(pts
@@ -15025,16 +14859,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 151.13) (xy 317.5 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428bd552-790d-4ea9-aab0-6cb6c4b4941a")
-	)
-	(wire
-		(pts
 			(xy 72.39 185.42) (xy 74.93 185.42)
 		)
 		(stroke
@@ -15042,16 +14866,6 @@
 			(type default)
 		)
 		(uuid "42a70aaa-f238-49cf-ac5e-933c49f8fa26")
-	)
-	(wire
-		(pts
-			(xy 55.88 44.45) (xy 58.42 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42e01b71-80de-40e0-8c55-4c5de61dc7eb")
 	)
 	(wire
 		(pts
@@ -16115,16 +15929,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 44.45) (xy 48.26 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5130c478-8a69-4b75-a936-b68649660a04")
-	)
-	(wire
-		(pts
 			(xy 198.12 135.89) (xy 198.12 143.51)
 		)
 		(stroke
@@ -16935,7 +16739,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 148.59) (xy 302.26 148.59)
+			(xy 256.54 148.59) (xy 302.26 148.59)
 		)
 		(stroke
 			(width 0)
@@ -17295,16 +17099,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 36.83) (xy 73.66 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "621d0de1-838a-4ddc-bcc3-6d8b83d80d61")
-	)
-	(wire
-		(pts
 			(xy 378.46 44.45) (xy 378.46 49.53)
 		)
 		(stroke
@@ -17585,16 +17379,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 36.83) (xy 63.5 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65e4acf1-0a48-4930-a8ae-77c037134b5c")
-	)
-	(wire
-		(pts
 			(xy 132.08 143.51) (xy 134.62 143.51)
 		)
 		(stroke
@@ -17752,16 +17536,6 @@
 			(type default)
 		)
 		(uuid "67ab3c16-baeb-4956-9b86-f8a62d5b5d4e")
-	)
-	(wire
-		(pts
-			(xy 262.89 271.78) (xy 262.89 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67c0ebe6-1e40-4e36-8490-f36d715b298f")
 	)
 	(wire
 		(pts
@@ -18262,16 +18036,6 @@
 			(type default)
 		)
 		(uuid "70410df4-c301-42cc-a6b9-7d36127d9388")
-	)
-	(wire
-		(pts
-			(xy 304.8 135.89) (xy 304.8 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "704cbd03-3775-47bc-b33e-930a3520b1d5")
 	)
 	(wire
 		(pts
@@ -18915,7 +18679,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 36.83) (xy 60.96 44.45)
+			(xy 60.96 31.75) (xy 60.96 44.45)
 		)
 		(stroke
 			(width 0)
@@ -19095,33 +18859,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 31.75) (xy 198.12 36.83)
+			(xy 198.12 31.75) (xy 198.12 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c186b96-1aa1-4797-9f70-b23391d50251")
-	)
-	(wire
-		(pts
-			(xy 259.08 143.51) (xy 261.62 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c23dbf7-0579-41d1-872f-719dfb31c15d")
-	)
-	(wire
-		(pts
-			(xy 198.12 36.83) (xy 198.12 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c33447d-3eef-43a5-9a8f-dbc09867064d")
 	)
 	(wire
 		(pts
@@ -19495,16 +19239,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 143.51) (xy 287.02 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81c5b677-8fde-4c78-8471-63c310564660")
-	)
-	(wire
-		(pts
 			(xy 238.76 135.89) (xy 241.3 135.89)
 		)
 		(stroke
@@ -19702,16 +19436,6 @@
 			(type default)
 		)
 		(uuid "83cd72a2-ec6f-40c6-8e91-7d523c05b0d3")
-	)
-	(wire
-		(pts
-			(xy 208.28 36.83) (xy 210.82 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83f101d3-5525-4372-9f3b-735d965c41fc")
 	)
 	(wire
 		(pts
@@ -20245,7 +19969,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 135.89) (xy 274.32 143.51)
+			(xy 274.32 135.89) (xy 274.32 151.13)
 		)
 		(stroke
 			(width 0)
@@ -20602,16 +20326,6 @@
 			(type default)
 		)
 		(uuid "8dc7fcce-c373-47f2-bce4-91dcd8d58b22")
-	)
-	(wire
-		(pts
-			(xy 210.82 36.83) (xy 210.82 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dd3cde5-36f3-48e8-a735-8e5b5761e089")
 	)
 	(wire
 		(pts
@@ -21865,16 +21579,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 143.51) (xy 287.02 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d824945-70c5-4280-a852-3bdb8052f362")
-	)
-	(wire
-		(pts
 			(xy 302.26 135.89) (xy 302.26 140.97)
 		)
 		(stroke
@@ -21985,7 +21689,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 41.91) (xy 73.66 41.91)
+			(xy 58.42 41.91) (xy 104.14 41.91)
 		)
 		(stroke
 			(width 0)
@@ -22022,26 +21726,6 @@
 			(type default)
 		)
 		(uuid "9ec46dae-916b-4d8c-8a14-ed85ec3d4e17")
-	)
-	(wire
-		(pts
-			(xy 213.36 143.51) (xy 215.9 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9edfcc19-6944-4bc5-af5c-8ce70658783a")
-	)
-	(wire
-		(pts
-			(xy 226.06 143.51) (xy 226.06 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ee345e8-c24b-4584-8fef-bc05f050ccd3")
 	)
 	(wire
 		(pts
@@ -22165,16 +21849,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 41.91) (xy 104.14 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a159dfab-7456-4ba0-9f03-f0cc122c9f7b")
-	)
-	(wire
-		(pts
 			(xy 180.34 57.15) (xy 195.58 57.15)
 		)
 		(stroke
@@ -22192,16 +21866,6 @@
 			(type default)
 		)
 		(uuid "a200274e-bbb7-4e9f-ae60-6c40bcd65eab")
-	)
-	(wire
-		(pts
-			(xy 259.08 135.89) (xy 259.08 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a207eb1d-ab8f-446c-900d-f91d9c2bae4c")
 	)
 	(wire
 		(pts
@@ -22432,16 +22096,6 @@
 			(type default)
 		)
 		(uuid "a4e67f74-b127-44f2-997a-e5dd2096ad60")
-	)
-	(wire
-		(pts
-			(xy 43.18 49.53) (xy 58.42 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4f03bf3-ea30-4791-8f7d-ce166612bf25")
 	)
 	(wire
 		(pts
@@ -23545,16 +23199,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 151.13) (xy 307.34 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3cb5c7f-ac96-4158-846a-39dc250dc156")
-	)
-	(wire
-		(pts
 			(xy 226.06 102.87) (xy 241.3 102.87)
 		)
 		(stroke
@@ -23772,16 +23416,6 @@
 			(type default)
 		)
 		(uuid "b70246eb-c8e6-4673-9f41-d2c86e782e43")
-	)
-	(wire
-		(pts
-			(xy 223.52 143.51) (xy 226.06 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b71407d9-58c0-4dd4-98cd-f80c313effa3")
 	)
 	(wire
 		(pts
@@ -24125,7 +23759,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 143.51) (xy 259.08 151.13)
+			(xy 259.08 135.89) (xy 259.08 151.13)
 		)
 		(stroke
 			(width 0)
@@ -24305,7 +23939,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 36.83) (xy 76.2 44.45)
+			(xy 76.2 31.75) (xy 76.2 44.45)
 		)
 		(stroke
 			(width 0)
@@ -24335,7 +23969,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 143.51) (xy 213.36 151.13)
+			(xy 213.36 135.89) (xy 213.36 151.13)
 		)
 		(stroke
 			(width 0)
@@ -24382,16 +24016,6 @@
 			(type default)
 		)
 		(uuid "bf732aeb-5e2f-41ca-b831-5f4b72f27647")
-	)
-	(wire
-		(pts
-			(xy 274.32 143.51) (xy 276.86 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfa28b5e-3dc2-4252-9b01-d9e5e1adbe23")
 	)
 	(wire
 		(pts
@@ -24555,16 +24179,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 148.59) (xy 271.78 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c21063ef-7085-44a9-a997-1d53647a45d1")
-	)
-	(wire
-		(pts
 			(xy 45.72 120.65) (xy 48.26 120.65)
 		)
 		(stroke
@@ -24665,16 +24279,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 143.51) (xy 274.32 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3be366d-59ae-454c-9ba5-33aaaa886e80")
-	)
-	(wire
-		(pts
 			(xy 106.68 143.51) (xy 109.22 143.51)
 		)
 		(stroke
@@ -24732,16 +24336,6 @@
 			(type default)
 		)
 		(uuid "c44b4056-8134-407d-b001-892ebff0c6ec")
-	)
-	(wire
-		(pts
-			(xy 198.12 36.83) (xy 200.66 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4834821-2ad5-4249-b71e-e8f08f7438b4")
 	)
 	(wire
 		(pts
@@ -25645,7 +25239,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 49.53) (xy 73.66 49.53)
+			(xy 43.18 49.53) (xy 73.66 49.53)
 		)
 		(stroke
 			(width 0)
@@ -25822,16 +25416,6 @@
 			(type default)
 		)
 		(uuid "d4225fc0-7bb8-4ff0-908a-789fee365367")
-	)
-	(wire
-		(pts
-			(xy 271.78 148.59) (xy 287.02 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d467cd23-585d-4a3c-ae90-a3cd01145cd9")
 	)
 	(wire
 		(pts
@@ -26605,16 +26189,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 44.45) (xy 58.42 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df160f5d-70ac-43ba-bf37-320f81437fb5")
-	)
-	(wire
-		(pts
 			(xy 287.02 133.35) (xy 302.26 133.35)
 		)
 		(stroke
@@ -26632,16 +26206,6 @@
 			(type default)
 		)
 		(uuid "df4daaf1-8cb6-42f7-b4cd-0d03580f0f97")
-	)
-	(wire
-		(pts
-			(xy 210.82 148.59) (xy 226.06 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df9abb12-deb7-44d8-9aa5-63e409bd100c")
 	)
 	(wire
 		(pts
@@ -26792,16 +26356,6 @@
 			(type default)
 		)
 		(uuid "e14b381a-2925-4802-8e30-f4a6c0dc34bb")
-	)
-	(wire
-		(pts
-			(xy 73.66 36.83) (xy 73.66 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1ae869f-f940-4ff0-ac6e-e660a2661fe1")
 	)
 	(wire
 		(pts
@@ -27185,16 +26739,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 36.83) (xy 45.72 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e77d3f34-0ff8-4a34-98b8-991321eb852a")
-	)
-	(wire
-		(pts
 			(xy 58.42 120.65) (xy 58.42 125.73)
 		)
 		(stroke
@@ -27222,16 +26766,6 @@
 			(type default)
 		)
 		(uuid "e7e43896-dfed-4991-955d-b9b39443e74e")
-	)
-	(wire
-		(pts
-			(xy 269.24 143.51) (xy 271.78 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7e9c451-93f9-4286-b806-184b94368374")
 	)
 	(wire
 		(pts
@@ -27272,16 +26806,6 @@
 			(type default)
 		)
 		(uuid "e88c7de2-86e0-484e-b071-168c36448df5")
-	)
-	(wire
-		(pts
-			(xy 271.78 143.51) (xy 271.78 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8f69192-1927-4168-9328-5d9a205be84f")
 	)
 	(wire
 		(pts
@@ -27502,16 +27026,6 @@
 			(type default)
 		)
 		(uuid "eb7e6ad0-a500-4590-a9de-e816eafb3749")
-	)
-	(wire
-		(pts
-			(xy 76.2 36.83) (xy 78.74 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb848c65-910a-4eaf-8055-72f5fbfa65e8")
 	)
 	(wire
 		(pts
@@ -27765,7 +27279,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 44.45) (xy 45.72 52.07)
+			(xy 45.72 36.83) (xy 45.72 52.07)
 		)
 		(stroke
 			(width 0)
@@ -28002,16 +27516,6 @@
 			(type default)
 		)
 		(uuid "f40af367-c147-4bad-8353-b8cc947a2b95")
-	)
-	(wire
-		(pts
-			(xy 76.2 31.75) (xy 76.2 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f422ff4d-9d4b-4baf-a5ff-c01571c1b5ff")
 	)
 	(wire
 		(pts
@@ -28542,16 +28046,6 @@
 			(type default)
 		)
 		(uuid "fa9e1a27-6cef-428d-859f-f307d326eb77")
-	)
-	(wire
-		(pts
-			(xy 60.96 31.75) (xy 60.96 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faaa2874-9c5d-4998-9be6-d443f4e94f28")
 	)
 	(wire
 		(pts
@@ -39584,141 +39078,6 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D193")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 82.55 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a44db7f-b8aa-487a-aaf9-67c6d91b985a")
-		(property "Reference" "D4"
-			(at 84.1375 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 84.1375 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 82.55 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C779450.html"
-			(at 82.55 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 82.55 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" ""
-			(at 82.55 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resource" ""
-			(at 82.55 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 82.55 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C52675968"
-			(at 82.55 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0403eaba-7059-4e7a-b4c3-5c3a7ab20c46")
-		)
-		(pin "1"
-			(uuid "c2cd0855-353f-494a-b9c5-55226ca795a2")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -50977,84 +50336,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 262.89 274.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "665f8c3c-f735-4f2d-8f4f-84e6c16531c7")
-		(property "Reference" "#PWR034"
-			(at 262.89 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 262.89 279.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c33a1577-757f-4dce-8e1b-6af6f18e77d1")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 189.23 143.51 180)
 		(unit 1)
@@ -52417,84 +51698,6 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 262.89 264.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e51dcb6-36fb-4fef-a1ad-e4ef25e839ef")
-		(property "Reference" "#PWR023"
-			(at 262.89 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 262.89 259.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 262.89 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 262.89 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a3c3818-443f-435c-98fd-51a70f62c52e")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -57021,141 +56224,6 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 265.43 143.51 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8326cb57-35d7-4589-824b-8cdc38e48bd8")
-		(property "Reference" "D289"
-			(at 267.0175 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 267.0175 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 265.43 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C779450.html"
-			(at 265.43 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 265.43 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 265.43 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" ""
-			(at 265.43 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resource" ""
-			(at 265.43 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 265.43 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C52675968"
-			(at 265.43 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "118195a5-2bc0-4f44-8a45-d4a4dc263af9")
-		)
-		(pin "1"
-			(uuid "afc443ba-4444-4dd8-8fa9-ae69cf960903")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "D289")
 					(unit 1)
 				)
 			)
@@ -72387,141 +71455,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 311.15 151.13 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0a4099a-c07d-4c4f-9581-816883504f5b")
-		(property "Reference" "D309"
-			(at 312.7375 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 312.7375 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 311.15 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C779450.html"
-			(at 311.15 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 311.15 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 311.15 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" ""
-			(at 311.15 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resource" ""
-			(at 311.15 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 311.15 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C52675968"
-			(at 311.15 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4c16ef17-2dce-4ac0-b40c-bc601f9e9e0a")
-		)
-		(pin "1"
-			(uuid "584f0b23-a31b-4640-8e13-7f55a422a7ac")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "D309")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 158.75 151.13 180)
 		(unit 1)
 		(body_style 1)
@@ -74759,131 +73692,6 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:C")
-		(at 262.89 267.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d87071eb-3658-409d-986d-81bc3b7b99fe")
-		(property "Reference" "C4"
-			(at 265.811 266.8016 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 265.811 269.113 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 263.8552 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
-			(at 262.89 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C307331"
-			(at 262.89 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" ""
-			(at 262.89 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resource" ""
-			(at 262.89 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 262.89 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fbc4dc07-58b2-432e-9970-72dd2eed81bd")
-		)
-		(pin "2"
-			(uuid "b34b0fdd-7fb3-45ad-a861-647d83fa2bd0")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pushbutton:TS-1187A-B-A-B")
 		(at 64.77 187.96 0)
 		(unit 1)
@@ -76624,276 +75432,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 204.47 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd1d65aa-2588-4e43-b765-8665a72c97d9")
-		(property "Reference" "D12"
-			(at 206.0575 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 206.0575 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 204.47 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C779450.html"
-			(at 204.47 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 204.47 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 204.47 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" ""
-			(at 204.47 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resource" ""
-			(at 204.47 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 204.47 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C52675968"
-			(at 204.47 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6741caa2-37a6-424b-abd1-7537d9048ddc")
-		)
-		(pin "1"
-			(uuid "ff16e979-b0a7-4587-a22c-68d59f7af440")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 219.71 143.51 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddf2b334-5d5d-4622-889e-35d0a5da11f6")
-		(property "Reference" "D286"
-			(at 221.2975 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 221.2975 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 219.71 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C779450.html"
-			(at 219.71 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 219.71 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" ""
-			(at 219.71 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resource" ""
-			(at 219.71 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 219.71 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C52675968"
-			(at 219.71 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bb82ad1e-0fa8-45cd-b586-e77a0465e76a")
-		)
-		(pin "1"
-			(uuid "6ca6e470-7232-4559-863c-5ea2a59daa65")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "D286")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 350.52 27.94 0)
 		(unit 1)
@@ -77490,141 +76028,6 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 280.67 143.51 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1fff054-c1be-4acd-a44f-55eb28de6af3")
-		(property "Reference" "D290"
-			(at 282.2575 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 282.2575 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 280.67 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C779450.html"
-			(at 280.67 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 280.67 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 280.67 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" ""
-			(at 280.67 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resource" ""
-			(at 280.67 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 280.67 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C52675968"
-			(at 280.67 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "30b37dd1-4644-4df5-bd12-34f6850531b5")
-		)
-		(pin "1"
-			(uuid "189cf8dc-f80b-4d71-9af5-d568b2c44ffe")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "D290")
 					(unit 1)
 				)
 			)
@@ -81502,141 +79905,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 67.31 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f10a0d0c-f4a8-465e-9ea5-bcdf37119a93")
-		(property "Reference" "D3"
-			(at 68.8975 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 68.8975 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 67.31 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C779450.html"
-			(at 67.31 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 67.31 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" ""
-			(at 67.31 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resource" ""
-			(at 67.31 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 67.31 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C52675968"
-			(at 67.31 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "78e5ad44-0bb9-4bef-b1d7-efd40f8a0c13")
-		)
-		(pin "1"
-			(uuid "fe7861d5-11f4-4976-91a3-28c6d5c9361e")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 356.87 151.13 180)
 		(unit 1)
 		(body_style 1)
@@ -84515,141 +82783,6 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 52.07 44.45 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb728b86-9b7b-404c-abe4-9f917cf8ec90")
-		(property "Reference" "D19"
-			(at 53.6575 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 53.6575 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 52.07 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C779450.html"
-			(at 52.07 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 52.07 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 52.07 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" ""
-			(at 52.07 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resource" ""
-			(at 52.07 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 52.07 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C52675968"
-			(at 52.07 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fa76cff1-3380-4af6-a77f-b45f1ea1e9cd")
-		)
-		(pin "1"
-			(uuid "66e60ee7-d50f-4a29-9c98-0f93b645f6a6")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "D19")
 					(unit 1)
 				)
 			)
