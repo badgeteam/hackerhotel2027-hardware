@@ -4,4 +4,5 @@
 	(lib (name "ch643") (type "KiCad") (uri "${KIPRJMOD}/library/ch643.pretty") (options "") (descr ""))
 	(lib (name "infrared") (type "KiCad") (uri "${KIPRJMOD}/library/infrared.pretty") (options "") (descr ""))
 	(lib (name "pushbutton") (type "KiCad") (uri "${KIPRJMOD}/library/pushbutton.pretty") (options "") (descr ""))
+	(lib (name "badgeteam") (type "KiCad") (uri "${KIPRJMOD}/library/badgeteam.pretty") (options "") (descr ""))
 )
