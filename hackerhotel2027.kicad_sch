@@ -4966,6 +4966,150 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mch2021-rescue:C-Device"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C-Device"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-Device_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C-Device_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mch2021-rescue:GND-power"
 			(power global)
 			(pin_names
@@ -5958,118 +6102,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "symbols2:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7321,12 +7353,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30fc7b47-499b-43dc-ae6c-19b4e5ce2255")
-	)
-	(junction
-		(at 96.52 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "314d49c2-a23b-4f6b-b9b8-6614c55a7e10")
 	)
 	(junction
 		(at 228.6 82.55)
@@ -8973,6 +8999,12 @@
 		(uuid "9fc5875a-e422-4c85-9c64-7c35d39f706e")
 	)
 	(junction
+		(at 154.94 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fc74b1e-15bc-4ed0-a623-81806338e09e")
+	)
+	(junction
 		(at 256.54 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9507,6 +9539,12 @@
 		(uuid "c40490b0-c1d4-4778-a97e-22ee7d6840d7")
 	)
 	(junction
+		(at 109.22 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c41c377e-8d4a-4dda-b50c-ba5e6aadb701")
+	)
+	(junction
 		(at 332.74 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9823,6 +9861,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9295baf-2961-4c47-8ec6-ef9828e78311")
+	)
+	(junction
+		(at 144.78 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da7e48ce-2e5c-417f-999a-ade359b41007")
 	)
 	(junction
 		(at 45.72 120.65)
@@ -13342,6 +13386,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 251.46) (xy 140.97 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f5d41a-7ae6-491c-8d92-4f0f656a85c3")
+	)
+	(wire
+		(pts
 			(xy 259.08 21.59) (xy 259.08 24.13)
 		)
 		(stroke
@@ -13722,7 +13776,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 261.62) (xy 96.52 251.46)
+			(xy 109.22 261.62) (xy 109.22 251.46)
 		)
 		(stroke
 			(width 0)
@@ -13732,7 +13786,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 270.51) (xy 104.14 269.24)
+			(xy 116.84 270.51) (xy 116.84 269.24)
 		)
 		(stroke
 			(width 0)
@@ -15002,6 +15056,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 251.46) (xy 123.19 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c476442-5518-4b01-bb18-95f9dc846ce6")
+	)
+	(wire
+		(pts
 			(xy 241.3 80.01) (xy 256.54 80.01)
 		)
 		(stroke
@@ -15379,6 +15443,16 @@
 			(type default)
 		)
 		(uuid "4192b1c2-fe5c-443e-aeba-08c7b091e70b")
+	)
+	(wire
+		(pts
+			(xy 144.78 270.51) (xy 144.78 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419cda92-4f0c-40f0-aac4-7bd0d88f51ae")
 	)
 	(wire
 		(pts
@@ -16202,7 +16276,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 240.03) (xy 140.97 251.46)
+			(xy 154.94 240.03) (xy 154.94 251.46)
 		)
 		(stroke
 			(width 0)
@@ -17822,7 +17896,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 240.03) (xy 96.52 251.46)
+			(xy 109.22 241.3) (xy 109.22 251.46)
 		)
 		(stroke
 			(width 0)
@@ -18042,7 +18116,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 264.16) (xy 96.52 270.51)
+			(xy 109.22 264.16) (xy 109.22 270.51)
 		)
 		(stroke
 			(width 0)
@@ -20202,16 +20276,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 251.46) (xy 123.19 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8461c3dc-3962-4fe9-8e7f-dc469cbc480f")
-	)
-	(wire
-		(pts
 			(xy 88.9 80.01) (xy 104.14 80.01)
 		)
 		(stroke
@@ -20589,6 +20653,16 @@
 			(type default)
 		)
 		(uuid "879ef32e-a0b6-4894-b551-9f5526bf0dd4")
+	)
+	(wire
+		(pts
+			(xy 90.17 251.46) (xy 109.22 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87bc0d2f-81f5-4773-bccd-e82252740a0e")
 	)
 	(wire
 		(pts
@@ -21982,6 +22056,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 251.46) (xy 154.94 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9741ef-243a-4766-ab99-5bcd18d3b607")
+	)
+	(wire
+		(pts
 			(xy 393.7 143.51) (xy 393.7 148.59)
 		)
 		(stroke
@@ -22092,7 +22176,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 264.16) (xy 96.52 264.16)
+			(xy 111.76 264.16) (xy 109.22 264.16)
 		)
 		(stroke
 			(width 0)
@@ -23002,7 +23086,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 261.62) (xy 96.52 261.62)
+			(xy 111.76 261.62) (xy 109.22 261.62)
 		)
 		(stroke
 			(width 0)
@@ -24832,6 +24916,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 251.46) (xy 144.78 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc54b27-4553-45b1-9c31-664d5cb894d3")
+	)
+	(wire
+		(pts
 			(xy 363.22 74.93) (xy 363.22 80.01)
 		)
 		(stroke
@@ -25289,6 +25383,16 @@
 			(type default)
 		)
 		(uuid "c628bbce-5332-47fd-ae86-9ebca53e54fa")
+	)
+	(wire
+		(pts
+			(xy 144.78 251.46) (xy 144.78 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65f1ff4-e9a9-40ba-998f-435d78902cdf")
 	)
 	(wire
 		(pts
@@ -26079,6 +26183,16 @@
 			(type default)
 		)
 		(uuid "d1d1ec63-cac2-4e24-83b6-e960cd3c2d90")
+	)
+	(wire
+		(pts
+			(xy 154.94 270.51) (xy 154.94 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ed3c95-5e03-4642-8bf9-d07e20f48bb2")
 	)
 	(wire
 		(pts
@@ -32574,7 +32688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -32709,7 +32823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -32844,7 +32958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -32979,7 +33093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -33114,7 +33228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -33249,7 +33363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -33384,7 +33498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -33519,7 +33633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -33654,7 +33768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -33780,7 +33894,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 124.46 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33802,7 +33916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 121.92 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -33847,6 +33961,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 121.92 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 121.92 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -34057,7 +34182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -34192,7 +34317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -34684,7 +34809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -34819,7 +34944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -34954,7 +35079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -35167,7 +35292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -35302,7 +35427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -35437,7 +35562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -35572,7 +35697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -35707,7 +35832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -35842,7 +35967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -35977,7 +36102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -36112,7 +36237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -36247,7 +36372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -36373,7 +36498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 185.42 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36395,7 +36520,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 182.88 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -36450,6 +36575,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25087"
+			(at 182.88 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e0cb8023-6749-453f-8ed4-e28565ebf2c0")
 		)
@@ -36460,83 +36596,6 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols2:GND")
-		(at 90.17 270.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "153d38ff-0b5d-4270-bc41-ce58a5f8058f")
-		(property "Reference" "#PWR035"
-			(at 90.17 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.297 274.9042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "78cda806-323c-42f9-994d-02bee2a538ee")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -36652,7 +36711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -36750,6 +36809,84 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "183f2435-1eba-4e9b-a2f8-cbb3184aae99")
+		(property "Reference" "#PWR049"
+			(at 144.78 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 275.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "065e7f87-ab7b-4c1e-9dda-af14cb482d2e")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -37020,7 +37157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -37155,7 +37292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 311.15 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -37290,7 +37427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -37416,7 +37553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 200.66 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37438,7 +37575,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 198.12 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -37483,6 +37620,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 198.12 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 198.12 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -37531,7 +37679,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 109.22 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37553,7 +37701,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 106.68 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -37598,6 +37746,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 106.68 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 106.68 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -37655,7 +37814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -37790,7 +37949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -37925,7 +38084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -38263,7 +38422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -38589,7 +38748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -38724,7 +38883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -39007,7 +39166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -39142,7 +39301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -39277,7 +39436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -39412,7 +39571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -39538,7 +39697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 215.9 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39560,7 +39719,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 213.36 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -39605,6 +39764,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 213.36 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 213.36 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -39933,7 +40103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -40059,7 +40229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 322.58 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40081,7 +40251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 320.04 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -40126,6 +40296,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 320.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 320.04 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -40183,7 +40364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -40318,7 +40499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -40453,7 +40634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -40786,7 +40967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 387.35 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -40921,7 +41102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -41056,7 +41237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -41191,7 +41372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -41326,7 +41507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -41461,7 +41642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -41596,7 +41777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -41731,7 +41912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -41866,7 +42047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -42001,7 +42182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -42136,7 +42317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -42271,7 +42452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -42406,7 +42587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -42541,7 +42722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -42676,7 +42857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -42811,7 +42992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -42946,7 +43127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -43081,7 +43262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -43216,7 +43397,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -43351,7 +43532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -43486,7 +43667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -43812,7 +43993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -43947,7 +44128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -44315,7 +44496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -44574,7 +44755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -44709,7 +44890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -44844,7 +45025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -44970,7 +45151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 261.62 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44992,7 +45173,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 259.08 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -45037,6 +45218,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 259.08 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 259.08 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -45094,7 +45286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -45229,7 +45421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -45441,7 +45633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -45654,7 +45846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -45789,7 +45981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -46002,7 +46194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -46137,7 +46329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -46272,7 +46464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -46407,7 +46599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -46542,7 +46734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -46677,7 +46869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -46812,7 +47004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -46910,6 +47102,84 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e9972a3-7123-4a8c-a644-90b13d0dc7f1")
+		(property "Reference" "#PWR045"
+			(at 66.04 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 275.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3306b7ca-8aa3-40c9-9307-c42da650c78a")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -47641,7 +47911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -47776,7 +48046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -47881,7 +48151,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 270.51 0)
+		(at 116.84 270.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -47892,7 +48162,7 @@
 		(fields_autoplaced yes)
 		(uuid "53a1fa3f-1526-4d54-81d8-d8acd5b38b5a")
 		(property "Reference" "#PWR037"
-			(at 104.14 276.86 0)
+			(at 116.84 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47903,7 +48173,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 275.59 0)
+			(at 116.84 275.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47913,7 +48183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 270.51 0)
+			(at 116.84 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47924,7 +48194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 270.51 0)
+			(at 116.84 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47935,7 +48205,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 270.51 0)
+			(at 116.84 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47989,7 +48259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -48124,7 +48394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -48259,7 +48529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -48385,7 +48655,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 337.82 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48407,7 +48677,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 335.28 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -48452,6 +48722,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 335.28 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 335.28 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -48500,7 +48781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 307.34 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48522,7 +48803,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 304.8 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -48567,6 +48848,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 304.8 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 304.8 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -48624,7 +48916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -48759,7 +49051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -48894,7 +49186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -49029,7 +49321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -49164,7 +49456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -49299,7 +49591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -49434,7 +49726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -50237,7 +50529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -50527,7 +50819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -50662,7 +50954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -50767,7 +51059,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 96.52 240.03 0)
+		(at 109.22 241.3 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -50778,7 +51070,7 @@
 		(dnp no)
 		(uuid "64022692-4e2a-4bc1-99af-73b43fec24f9")
 		(property "Reference" "#PWR022"
-			(at 96.52 243.84 0)
+			(at 109.22 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50789,7 +51081,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 96.52 234.696 0)
+			(at 109.22 235.966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50799,7 +51091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 240.03 0)
+			(at 109.22 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50810,7 +51102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 240.03 0)
+			(at 109.22 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50821,7 +51113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 96.52 240.03 0)
+			(at 109.22 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50875,7 +51167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -51165,7 +51457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -51300,7 +51592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -51435,7 +51727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -51570,7 +51862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -51705,7 +51997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -51840,7 +52132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -51975,7 +52267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -52110,7 +52402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -52245,7 +52537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -52380,7 +52672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -52484,6 +52776,197 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:C")
+		(at 144.78 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ac3e6cc-647c-4486-b16a-39adb2fd57d4")
+		(property "Reference" "C7"
+			(at 147.701 260.4516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 147.701 262.763 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 145.7452 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 144.78 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 144.78 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resource" ""
+			(at 144.78 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin1" ""
+			(at 144.78 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin2" ""
+			(at 144.78 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin3" ""
+			(at 144.78 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin4" ""
+			(at 144.78 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pin5" ""
+			(at 144.78 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 144.78 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 144.78 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 144.78 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "649202d2-ac7a-4a2a-9e14-f82d4fe8908e")
+		)
+		(pin "2"
+			(uuid "b9bbea85-a271-4a2c-84d3-76920b1bb4c5")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 158.75 143.51 180)
 		(unit 1)
@@ -52515,7 +52998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -52619,6 +53102,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 90.17 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c13faed-71e5-4e1f-8e6a-772d491b9fea")
+		(property "Reference" "#PWR044"
+			(at 90.17 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 275.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46517d6d-8a5c-4d7b-a8bf-4fb4fc70d6b9")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 250.19 135.89 180)
 		(unit 1)
@@ -52650,7 +53211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -52907,6 +53468,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d20165c-84c7-4c7f-8717-3ffd9c004b86")
+		(property "Reference" "#PWR050"
+			(at 154.94 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 275.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8c3d682-459d-450f-afbe-ca159e201fde")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 189.23 36.83 180)
 		(unit 1)
@@ -52938,7 +53577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -53073,7 +53712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -53208,7 +53847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -53546,7 +54185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -53681,7 +54320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -53816,7 +54455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -54029,7 +54668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -54164,7 +54803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -54299,7 +54938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -54434,7 +55073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -54724,7 +55363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -54859,7 +55498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -54994,7 +55633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -55129,7 +55768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -55264,7 +55903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -55399,7 +56038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -55678,7 +56317,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 292.1 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55700,7 +56339,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 289.56 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -55745,6 +56384,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 289.56 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 289.56 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -55802,7 +56452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -55937,7 +56587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -56345,7 +56995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -56480,7 +57130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -56615,7 +57265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -56750,7 +57400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -56885,7 +57535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -57020,7 +57670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -57155,7 +57805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -57290,7 +57940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -57503,7 +58153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -57608,7 +58258,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 104.14 261.62 0)
+		(at 116.84 261.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -57619,7 +58269,7 @@
 		(fields_autoplaced yes)
 		(uuid "82a2b04e-0620-431f-8881-8bfbe681c826")
 		(property "Reference" "J2"
-			(at 106.68 261.9755 0)
+			(at 119.38 261.9755 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57630,7 +58280,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 106.68 264.5155 0)
+			(at 119.38 264.5155 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57641,7 +58291,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
-			(at 104.14 261.62 0)
+			(at 116.84 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57652,7 +58302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 261.62 0)
+			(at 116.84 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57663,7 +58313,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 104.14 261.62 0)
+			(at 116.84 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57674,7 +58324,7 @@
 			)
 		)
 		(property "LCSC Part" "C20598817"
-			(at 104.14 261.62 0)
+			(at 116.84 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57734,7 +58384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -57869,7 +58519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -58004,7 +58654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -58139,7 +58789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -58274,7 +58924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -58753,7 +59403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -58888,7 +59538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -59023,7 +59673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -59158,7 +59808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -59293,7 +59943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -59428,7 +60078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -59563,7 +60213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -59853,7 +60503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -59988,7 +60638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -60123,7 +60773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -60258,7 +60908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -60384,7 +61034,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 231.14 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60406,7 +61056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 228.6 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -60451,6 +61101,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 228.6 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 228.6 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -60586,7 +61247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -60721,7 +61382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -60847,7 +61508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 368.3 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60869,7 +61530,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 365.76 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -60914,6 +61575,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 365.76 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 365.76 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -60971,7 +61643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -61106,7 +61778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -61241,7 +61913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -61376,7 +62048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -61511,7 +62183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -61724,7 +62396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -62090,7 +62762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -62225,7 +62897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -62360,7 +63032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -62495,7 +63167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -62909,6 +63581,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 48.26 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0d9837d-678c-43d0-bc63-646b0f48db15")
+		(property "Reference" "#PWR046"
+			(at 48.26 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 275.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c85e1299-e014-42f2-9e26-849678197fa6")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 111.76 210.82 90)
 		(unit 1)
@@ -62950,7 +63700,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 111.76 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -62972,7 +63722,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C25087"
 			(at 111.76 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -63109,7 +63859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -63244,7 +63994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -63379,7 +64129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -63820,7 +64570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 276.86 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63842,7 +64592,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 274.32 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -63887,6 +64637,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 274.32 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 274.32 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -63944,7 +64705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -64271,7 +65032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -64406,7 +65167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -64532,7 +65293,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 154.94 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64554,7 +65315,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 152.4 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -64599,6 +65360,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 152.4 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 152.4 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -64758,7 +65530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -64884,7 +65656,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 78.74 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64906,7 +65678,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -64951,6 +65723,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 76.2 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -65008,7 +65791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -65296,7 +66079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -65431,7 +66214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -65566,7 +66349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -65983,9 +66766,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa67711f-3eb2-4ca3-a11e-46e1f1ec78e0")
@@ -66044,6 +66827,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "-"
+			(at 243.84 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
@@ -66085,7 +66879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -66183,83 +66977,6 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols2:GND")
-		(at 39.37 270.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "abe7dccd-da3d-41a0-9981-2c0a406f01f6")
-		(property "Reference" "#PWR032"
-			(at 39.37 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.497 274.9042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a65511c7-ec4c-42d0-8c8d-8f378f1f2719")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -66375,7 +67092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -66588,7 +67305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -66801,7 +67518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -66906,7 +67623,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 270.51 0)
+		(at 109.22 270.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -66917,7 +67634,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae8c9746-01a5-4ea1-8a75-1b35b2df5bed")
 		(property "Reference" "#PWR036"
-			(at 96.52 276.86 0)
+			(at 109.22 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66928,7 +67645,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 275.59 0)
+			(at 109.22 275.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -66938,7 +67655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 270.51 0)
+			(at 109.22 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66949,7 +67666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 270.51 0)
+			(at 109.22 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66960,7 +67677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 270.51 0)
+			(at 109.22 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67092,7 +67809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -67227,7 +67944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -67353,7 +68070,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 63.5 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67375,7 +68092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 60.96 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -67420,6 +68137,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 60.96 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 60.96 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -67630,7 +68358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -67765,7 +68493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -67900,7 +68628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -68035,7 +68763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -68325,7 +69053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -68460,7 +69188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -68753,7 +69481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -68888,7 +69616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -69023,7 +69751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -69158,7 +69886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -69293,7 +70021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -69428,7 +70156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -69755,7 +70483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -69859,6 +70587,109 @@
 		)
 	)
 	(symbol
+		(lib_id "mch2021-rescue:C-Device")
+		(at 154.94 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8eec4d0-3210-4bcd-909b-ecc653408835")
+		(property "Reference" "C8"
+			(at 158.75 260.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 158.75 262.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 155.9052 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
+			(at 154.94 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5199872"
+			(at 154.94 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C107372"
+			(at 154.94 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b1dbf36-018a-43b8-b9b3-84d557d33dd4")
+		)
+		(pin "2"
+			(uuid "ce87b92f-e150-4d2d-bfa3-af736985dec0")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 265.43 52.07 180)
 		(unit 1)
@@ -69890,7 +70721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -70025,7 +70856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -70160,7 +70991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -70448,7 +71279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -70583,7 +71414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 295.91 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -70718,7 +71549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -71092,83 +71923,6 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols2:GND")
-		(at 66.04 270.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c3ba64d1-bfdc-4c20-a13a-164c32dd1874")
-		(property "Reference" "#PWR034"
-			(at 66.04 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.167 274.9042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b007e5d-feaf-47d7-844a-506bfcabed7e")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 158.75 97.79 180)
 		(unit 1)
@@ -71200,7 +71954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -71335,7 +72089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -71470,7 +72224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -71605,7 +72359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -71740,7 +72494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -72339,7 +73093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -72474,7 +73228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -72733,6 +73487,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 39.37 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc676a96-09a6-45e4-a7a9-bf99198390f2")
+		(property "Reference" "#PWR047"
+			(at 39.37 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 275.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ed47a4e-c727-4cef-9380-702c323b27f8")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 173.99 97.79 180)
 		(unit 1)
@@ -72764,7 +73596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -72899,7 +73731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 326.39 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -73034,7 +73866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -73169,7 +74001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -73304,7 +74136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -73439,7 +74271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -73574,7 +74406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -73678,6 +74510,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 29.21 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d14485e6-5800-4582-9337-7f9c62f6b90d")
+		(property "Reference" "#PWR048"
+			(at 29.21 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 275.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5db07fae-f2d1-4eb1-a98f-c5342ed11e27")
+		)
+		(instances
+			(project "hackerhotel2027"
+				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 250.19 128.27 180)
 		(unit 1)
@@ -73709,7 +74619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -73844,7 +74754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -73979,7 +74889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -74114,7 +75024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -74249,7 +75159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -74384,7 +75294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -74519,7 +75429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -74654,7 +75564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -74789,7 +75699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -74924,7 +75834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -75059,7 +75969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -75194,7 +76104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -75329,7 +76239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -75464,7 +76374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -75569,7 +76479,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 140.97 240.03 0)
+		(at 154.94 240.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -75580,7 +76490,7 @@
 		(fields_autoplaced yes)
 		(uuid "d85d0b9b-d6ef-4035-bdc1-31b2e3dbfa79")
 		(property "Reference" "#PWR024"
-			(at 140.97 243.84 0)
+			(at 154.94 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75591,7 +76501,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 140.97 234.95 0)
+			(at 154.94 234.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -75601,7 +76511,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 140.97 240.03 0)
+			(at 154.94 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75612,7 +76522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 240.03 0)
+			(at 154.94 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75623,7 +76533,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 140.97 240.03 0)
+			(at 154.94 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75797,7 +76707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -75932,7 +76842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -76067,7 +76977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 341.63 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -76202,7 +77112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -76337,7 +77247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -76472,7 +77382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -76607,7 +77517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -76742,7 +77652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -76877,7 +77787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -77012,7 +77922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -77147,7 +78057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -77282,7 +78192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -77417,7 +78327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -77543,7 +78453,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 353.06 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -77565,7 +78475,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 350.52 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -77610,6 +78520,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 350.52 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 350.52 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -77667,7 +78588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -77793,7 +78714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 93.98 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -77815,7 +78736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 91.44 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -77860,6 +78781,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 91.44 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 91.44 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -77917,7 +78849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 158.75 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -78063,7 +78995,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23848575-RCA0247RFLF/C22369545"
 			(at 107.95 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -78154,7 +79086,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -78260,7 +79192,6 @@
 	(symbol
 		(lib_id "symbols:C")
 		(at 90.17 261.62 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -78270,7 +79201,7 @@
 		(dnp no)
 		(uuid "e3769ff7-c656-4f5b-a5ff-206c0ffaa84b")
 		(property "Reference" "C3"
-			(at 87.249 260.4516 0)
+			(at 93.091 260.4516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -78280,8 +79211,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 87.249 262.763 0)
+		(property "Value" "10u"
+			(at 93.091 262.763 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -78292,7 +79223,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 89.2048 265.43 0)
+			(at 91.1352 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -78905,7 +79836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -79031,7 +79962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 170.18 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -79053,7 +79984,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 167.64 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -79098,6 +80029,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 167.64 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 167.64 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -79155,7 +80097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -79412,7 +80354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -79547,7 +80489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -79673,7 +80615,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 383.54 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -79695,7 +80637,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 381 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -79740,6 +80682,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 381 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 381 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -79797,7 +80750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -79895,83 +80848,6 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "D189")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols2:GND")
-		(at 29.21 270.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e7e62622-a276-45d9-88fc-ef690adf24fd")
-		(property "Reference" "#PWR031"
-			(at 29.21 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.337 274.9042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e5215405-991f-4243-8aba-e8e8c5f38ae2")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -80164,7 +81040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -80299,7 +81175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -80434,7 +81310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 67.31 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -80622,9 +81498,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eab6a255-ca26-4ff5-86ab-08804450b2ae")
@@ -80671,6 +81547,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 172.72 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "-"
 			(at 172.72 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -80740,7 +81627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 219.71 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -80875,7 +81762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -81010,7 +81897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -81369,7 +82256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -81504,7 +82391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 204.47 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -81630,7 +82517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 139.7 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -81652,7 +82539,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 137.16 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -81697,6 +82584,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 137.16 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 137.16 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -81754,7 +82652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -81889,7 +82787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -82024,7 +82922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 356.87 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -82237,7 +83135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 52.07 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -82372,7 +83270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 265.43 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -82507,7 +83405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 113.03 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -82642,7 +83540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -83340,7 +84238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 36.83 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -83475,7 +84373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -83610,7 +84508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -83745,7 +84643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -83880,7 +84778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 128.27 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -84015,7 +84913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 280.67 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -84141,7 +85039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 246.38 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -84163,7 +85061,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 243.84 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -84218,6 +85116,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25087"
+			(at 243.84 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d72177f-3e13-4958-a18c-e359996a74eb")
 		)
@@ -84228,83 +85137,6 @@
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols2:GND")
-		(at 48.26 270.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f813ea46-cfab-4f0b-881a-9a9232f096e3")
-		(property "Reference" "#PWR033"
-			(at 48.26 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.387 274.9042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fe1b4bf-77e3-49fa-8219-167cdf05e352")
-		)
-		(instances
-			(project "hackerhotel2027"
-				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -84333,7 +85165,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 33.02 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -84355,7 +85187,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 30.48 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -84400,6 +85232,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 30.48 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 30.48 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -84526,7 +85369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 48.26 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -84548,7 +85391,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
 			(at 45.72 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -84593,6 +85436,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 45.72 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
 			(at 45.72 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -84650,7 +85504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -84909,7 +85763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 173.99 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -85044,7 +85898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -85179,7 +86033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 250.19 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -85469,7 +86323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -85604,7 +86458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 234.95 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -85739,7 +86593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 372.11 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -85874,7 +86728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 143.51 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -86164,7 +87018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 97.79 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -86490,7 +87344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "led_no_silk:LED_0402_1005Metric_nosilk"
 			(at 189.23 82.55 0)
 			(hide yes)
 			(show_name no)
