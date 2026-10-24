@@ -38284,7 +38284,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" "0"
 			(at 128.27 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -38547,7 +38547,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 46.99 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39062,7 +39062,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "90"
 			(at 359.41 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -58334,6 +58334,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 116.84 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "320a92fd-77fc-49ae-8edc-a1acc0de2fdd")
 		)
@@ -64488,7 +64499,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 119.38 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -70652,7 +70663,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5199872"
+		(property "LCSC" ""
 			(at 154.94 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -70663,7 +70674,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C107372"
+		(property "LCSC Part" "C5199872"
 			(at 154.94 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -79635,7 +79646,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 35.56 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -80212,7 +80223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e56aa979-b9ba-41dd-96b9-7f4ca301cbfe")
-		(property "Reference" "CGQ1"
+		(property "Reference" "S1"
 			(at 135.89 185.2949 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -80316,7 +80327,7 @@
 		(instances
 			(project "hackerhotel2027"
 				(path "/0ab9a1db-7560-4118-92b8-33ec87c3cf01"
-					(reference "CGQ1")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -82090,7 +82101,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" "90"
 			(at 66.04 254 0)
 			(hide yes)
 			(show_name no)
@@ -83972,7 +83983,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "90"
 			(at 245.11 209.55 90)
 			(hide yes)
 			(show_name no)
