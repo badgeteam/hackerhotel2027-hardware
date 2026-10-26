@@ -6,4 +6,5 @@
 	(lib (name "pushbutton") (type "KiCad") (uri "${KIPRJMOD}/library/pushbutton.pretty") (options "") (descr ""))
 	(lib (name "badgeteam") (type "KiCad") (uri "${KIPRJMOD}/library/badgeteam.pretty") (options "") (descr ""))
 	(lib (name "led_no_silk") (type "KiCad") (uri "${KIPRJMOD}/library/led_no_silk.pretty") (options "") (descr ""))
+	(lib (name "jst") (type "KiCad") (uri "${KIPRJMOD}/library/jst.pretty") (options "") (descr ""))
 )
